@@ -18,6 +18,13 @@ h2{
     font-size: 25px;
 }
 
+h3{
+    color: darkgoldenrod;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .Barra_navegacion{
     background-color: lightblue;
     display: flex;
@@ -46,7 +53,7 @@ h2{
 
 .Contenedor{
     width: 1000px;
-    background-color: white;
+    background-color: whitesmoke;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
