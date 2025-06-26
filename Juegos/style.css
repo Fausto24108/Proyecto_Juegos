@@ -1,3 +1,10 @@
+body{
+    background-image: url("./Recursos/FondoPagina.gif");
+    background-repeat: no-repeat;
+    background-size: 114%;
+    background-position: center;
+}
+
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: orangered;
