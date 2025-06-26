@@ -77,6 +77,6 @@ a{
     gap: 20px;
 }
 
-.Centrar{
-    text-align: center;
+.Fondo{
+    background-color: black;
 }
