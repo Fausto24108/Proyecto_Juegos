@@ -30,6 +30,12 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 
+a{
+    font-weight: bolder;
+    color: blue;
+    font-size: 17px;
+}
+
 .Barra_navegacion{
     background-color: lightblue;
     display: flex;
