@@ -25,6 +25,11 @@ h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .Barra_navegacion{
     background-color: lightblue;
     display: flex;
