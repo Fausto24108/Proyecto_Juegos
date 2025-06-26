@@ -30,3 +30,11 @@ h1{
     color: purple;
     font-size: 25px;
 }
+
+.Contenedor{
+    width: 1000px;
+    background-color: white;
+    margin: 20px auto auto auto;
+    border-radius: 15px;
+    padding: 20px;
+}
