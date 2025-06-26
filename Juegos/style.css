@@ -31,10 +31,18 @@ h1{
     font-size: 25px;
 }
 
+.Contenedor h2 {
+  flex-basis: 100%;  
+  margin-bottom: 20px; 
+}
+
 .Contenedor{
     width: 1000px;
     background-color: white;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
