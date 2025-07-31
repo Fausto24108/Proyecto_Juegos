@@ -38,6 +38,19 @@ h3{
     text-align: center;
 }
 
+.Tarjeta{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s ease;
+    border-radius: 10px;
+}
+
+.Juego:hover .Tarjeta{
+    transform: rotateY(180deg);
+}
+
 p{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
