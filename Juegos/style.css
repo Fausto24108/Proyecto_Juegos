@@ -63,6 +63,10 @@ h3{
     align-items: center;
 }
 
+.Cara.Frente{
+    background-color: #fff;
+}
+
 p{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
