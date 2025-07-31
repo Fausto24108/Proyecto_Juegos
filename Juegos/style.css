@@ -56,11 +56,6 @@ a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Links:hover{
-    color: purple;
-    font-size: 25px;
-}
-
 .Contenedor h2 {
   flex-basis: 100%;  
   margin-bottom: 20px; 
