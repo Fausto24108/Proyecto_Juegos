@@ -12,3 +12,11 @@ Contacto y redes sociales con información sobre nuestro equipo.
 Este proyecto continuará evolucionando a medida que avancemos en el aprendizaje de HTML5, CSS y JavaScript.
 
 ¡Gracias por visitarnos y esperamos que te diviertas explorando nuestra página!
+
+Autores:
+Fausto Poggi: Creador pagina JUEGOS
+Ceferino Fares: Creador pagina CONTACTENOS
+Thiago Rodriguez: Creador pagina HISTORIA
+Marco Abello: Creador pagina CURIOSIDADES
+Robert Weisser: Creador pagina MULTIMEDIA
+Sebastian Malpu: Creador pagina PRINCIPAL
