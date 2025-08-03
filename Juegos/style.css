@@ -56,11 +56,6 @@ a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Contenedor h2 {
-  flex-basis: 100%;  
-  margin-bottom: 20px; 
-}
-
 .Contenedor{
     width: 1000px;
     background-color: whitesmoke;
