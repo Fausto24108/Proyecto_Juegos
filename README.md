@@ -1,5 +1,5 @@
 ¡Hola!
-Esta página web fue desarrollada como parte del Trabajo Práctico N°5 de la materia Programación Web Estática, dictada por el profesor Ezequiel Widerman.
+Esta página web fue desarrollada como parte del Trabajo Práctico N°6 de la materia Programación Web Estática, dictada por el profesor Ezequiel Widerman.
 El sitio está inspirado en grandes empresas de videojuegos, como Nintendo, y fue creado para que puedas disfrutar de una amplia variedad de juegos arcade clásicos y modernos.
 
 Incluye secciones como:
