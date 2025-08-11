@@ -1,3 +1,4 @@
 body{
-    background-image: url("./Imagenes/Fondo.jpg")
+    background-image: url("./Imagenes/Fondo.jpg");
+    background-size: 195%;
 }
