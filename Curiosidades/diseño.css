@@ -6,6 +6,10 @@ h1{
     color: red;
 }
 
+.Mario{
+     text-align: center;
+}
+
 .Barra_navegacion{
     background-color: black;
     display: flex;
