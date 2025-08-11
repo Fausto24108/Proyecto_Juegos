@@ -10,6 +10,10 @@ h1{
      text-align: center;
 }
 
+h3{
+    text-decoration: underline;
+}
+
 .Barra_navegacion{
     background-color: black;
     display: flex;
