@@ -25,6 +25,7 @@ h3{
 .Caja{
     width: 1000px;
     background-color: whitesmoke;
+    margin: 20px auto auto auto;
 }
 
 .Barra_navegacion{
