@@ -9,7 +9,7 @@ h1{
 
 .Presentacion p{
     text-align: center;
-    color: black;
+    color: red;
 
 }
 
@@ -24,7 +24,7 @@ h3{
 
 .Caja{
     width: 1000px;
-    background-color: whitesmoke;
+    background-color: black;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
