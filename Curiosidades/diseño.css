@@ -33,7 +33,7 @@ h3{
 
 .Caja{
     width: 1000px;
-    background-color: black;
+    background-color: darkblue;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
@@ -41,7 +41,7 @@ h3{
 }
 
 .Barra_navegacion{
-    background-color: black;
+    background-color: darkblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
