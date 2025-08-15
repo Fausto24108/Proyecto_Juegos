@@ -17,6 +17,10 @@ p{
 
 }
 
+img{
+    border-radius: 10px;
+}
+
 .Juego{
      text-align: center;
 }
