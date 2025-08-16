@@ -2,3 +2,10 @@ body{
         background-image: url("Imágenes/3SEo.gif");
         background-size: cover;
 }
+.Barra_navegacion{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
