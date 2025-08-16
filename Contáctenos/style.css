@@ -5,7 +5,10 @@ body{
 .Barra_navegacion{
     background-color: lightblue;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 15px;
+}
+.Barra_navegacion nav a{
+
 }
