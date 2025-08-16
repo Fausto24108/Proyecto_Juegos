@@ -32,3 +32,14 @@ body{
     padding: 20px;
     gap: 20px;
 }
+.Caja_Índice{
+    display:flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: whitesmoke;
+    margin: 20px auto auto auto;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+
