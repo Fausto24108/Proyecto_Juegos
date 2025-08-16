@@ -24,7 +24,7 @@ body{
 }
 .Caja_2{
     display:flex;
-    flex-direction: ;
+    flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
     margin: 20px auto auto auto;
