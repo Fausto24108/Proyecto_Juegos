@@ -12,9 +12,11 @@ body{
 
 }
 .Caja_1{
+    color: blue;
     flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
+    border: 2px solid blue;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
