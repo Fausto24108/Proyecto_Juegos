@@ -4,7 +4,6 @@ body{
 }
 .Barra_navegacion{
     background-color: lightblue;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0 15px;
@@ -13,7 +12,6 @@ body{
 
 }
 .Caja_1{
-    display: flex;
     flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
@@ -23,8 +21,6 @@ body{
     gap: 20px;
 }
 .Caja_2{
-    display:flex;
-    flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
     margin: 20px auto auto auto;
@@ -33,8 +29,6 @@ body{
     gap: 20px;
 }
 .Caja_Índice{
-    display:flex;
-    flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
     margin: 20px auto auto auto;
