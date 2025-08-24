@@ -11,15 +11,14 @@ body{
 }
 *{
     color:blue;
+    font-family: "Goudy Bookletter 1911", sans-serif; 
 }
 
 h1{
     font-family: Times, "Times New Roman", Georgia, serif;
 }
 
-a{
-    
-}
+
 
 .Barra_navegacion nav a{
     margin: 20px;
