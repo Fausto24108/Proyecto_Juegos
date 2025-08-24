@@ -13,6 +13,14 @@ body{
     color:blue;
 }
 
+h1{
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+a{
+    
+}
+
 .Barra_navegacion nav a{
     margin: 20px;
     font-weight: bolder;
