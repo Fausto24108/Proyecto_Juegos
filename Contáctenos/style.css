@@ -9,8 +9,12 @@ body{
     align-items: center;
     padding: 0 15px;
 }
-.Barra_navegacion nav a{
 
+.Barra_navegacion nav a{
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .Caja_1{
     color: blue;
