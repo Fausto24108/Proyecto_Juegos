@@ -59,10 +59,9 @@ h1{
     gap: 20px;
 }
 .Caja{
-    color: blue;
     width: 1000px;
     background-color: black;
-    border: 2px solid blue;
+    border: 2px solid #3b47d4;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
