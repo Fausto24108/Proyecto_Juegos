@@ -26,6 +26,9 @@ h1{
     font-size: 20px;
     font-family: Times, "Times New Roman", Georgia, serif;
 }
+#main{
+    color:#272FA2;
+}
 .Caja_1{
     color: blue;
     width: 1000px;
