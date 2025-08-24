@@ -18,7 +18,6 @@ body{
 }
 .Caja_1{
     color: blue;
-    flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
     border: 2px solid blue;
