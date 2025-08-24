@@ -3,6 +3,7 @@ body{
         background-size: cover;
 }
 .Barra_navegacion{
+    display:flex;
     background-color: lightblue;
     justify-content: space-around;
     align-items: center;
