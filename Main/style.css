@@ -31,3 +31,7 @@ footer{
     padding: 20px;
     gap: 20px;
 }
+
+body {
+    background-color:black;
+}
