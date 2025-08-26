@@ -1,4 +1,4 @@
-.Barra_navegacion nav a{
+.Barra_navegacion nav a {
     color: green;
     margin: 20px;
     font-weight: bolder;
@@ -6,7 +6,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Barra_navegacion{
+.Barra_navegacion {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
     padding: 0 15px;
 }
 
-footer{
+footer {
     width: 100%;
     height: 135px;
     background-color: rgba(102, 55, 211, 0.966);
@@ -23,7 +23,7 @@ footer{
     font-size: 17px;
 }
 
-.Contenedor{
+.Contenedor {
     width: 1000px; 
     background-color: whitesmoke;
     margin: 20px auto auto auto;
@@ -37,7 +37,7 @@ body {
     background-color:black;
 }
 
-.ContenedorLogo{
+.ContenedorLogo {
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.Contenedor1{
+.Contenedor1 {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -53,7 +53,23 @@ p {
 }
       
 .Box1,
-.Box2{
+.Box2 {
+    width: 480px; 
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Contenedor2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.Box3,
+.Box4 {
     width: 480px; 
     background-color: whitesmoke;
     border-radius: 15px;
