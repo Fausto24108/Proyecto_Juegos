@@ -34,8 +34,10 @@ footer {
 }
 
 body {
-    background-image: url("./Recursos/FondoPagina.gif");
+    background-image: url();
     background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .ContenedorLogo {
