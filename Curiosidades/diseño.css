@@ -69,3 +69,8 @@ footer{
 .ContenedorLogo{
     text-align: center;
 }
+
+.Caja ol {
+    list-style-position: outside;
+    padding-left: 40px;
+}
