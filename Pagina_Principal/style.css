@@ -35,7 +35,7 @@ footer {
 
 body {
     background-image: url();
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -82,4 +82,9 @@ p {
 
 img{
     border-radius: 10px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
 }
