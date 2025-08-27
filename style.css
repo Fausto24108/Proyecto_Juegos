@@ -1,0 +1,154 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    background-color: #111111;
+    overflow-x: hidden;
+    background-repeat:repeat;
+
+}
+    .bg {
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: url('https://assets.iceable.com/img/noise-transparent.png') repeat;
+            animation: bg-animation 0.2s infinite;
+            opacity: 1.2; /* Aumenté la opacidad para que se note más */
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        @keyframes bg-animation {
+            0% { transform: translate(0,0) }
+            10% { transform: translate(-5%,-5%) }
+            20% { transform: translate(-10%,5%) }
+            30% { transform: translate(5%,-10%) }
+            40% { transform: translate(-5%,15%) }
+            50% { transform: translate(-10%,5%) }
+            60% { transform: translate(15%,0%) }
+            70% { transform: translate(0%,10%) }
+            80% { transform: translate(-15%,0%) }
+            90% { transform: translate(10%,5%) }
+            100% { transform: translate(5%,0%) }
+        }
+img{
+    margin: 10px;
+}
+
+
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+
+.botonera a {
+            display: inline-block;
+            margin: 5px;
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background-color: #4122eb;
+            color: rgb(110, 122, 223);
+            text-decoration: none;
+    
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 5px #2db688;
+         
+        }
+
+.botonera button:hover {
+    background-color: #3fa191;
+    transform: scale(1.05);
+}
+
+
+.botonera button:active {
+    box-shadow: 0 2px #2e7d32;
+    transform: scale(1);
+}
+
+footer{
+             color: rgba(228, 209, 209, 0.699);
+                text-align: center;
+}
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
+            overflow-x: hidden;
+            color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+            font-size: 36px;
+            margin-bottom: 40px;
+}
+.botonera {
+            margin-top: 30px;
+        
+}
+
+        
+
+.botonera a:hover {
+            background-color: #8abef0;
+            transform: scale(1.05);
+}    
+.Barra_navegacion{
+    background-color: rgb(49, 153, 153);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+a{
+    font-weight: bolder;
+    color: blue;
+    font-size: 17px;
+}
+.Barra_navegacion nav a{
+    color: rgb(128, 0, 0);
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.botonera a:active {
+            box-shadow: 0 2px #88c9c9;
+            transform: scale(0.97);
+}
+             
+.Contenedor{
+    width: 1000px;
+    background-color: whitesmoke;
+    margin: 20px auto auto auto;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.Fondo{
+    background-color: black;
+}
+
+footer{
+    width: 100%;
+    height: 135px;
+    background-color: rgba(102, 55, 211, 0.966);
+    color: greenyellow;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.ContenedorLogo{
+    text-align: center;
+}
