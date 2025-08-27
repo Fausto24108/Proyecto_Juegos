@@ -42,7 +42,7 @@ h3{
 }
 
 .Barra_navegacion{
-    background-color: darkblue;
+    background-color: lightblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,7 @@ h3{
 }
 
 .Barra_navegacion nav a{
-    color: rebeccapurple;
+    color: green;
     margin: 20px;
     font-weight: bolder;
     font-size: 20px;
