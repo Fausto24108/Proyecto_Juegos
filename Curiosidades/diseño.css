@@ -17,6 +17,11 @@ p{
 
 }
 
+img{
+    border-radius: 10px;
+    margin: 48px;
+}
+
 .Juego{
      text-align: center;
 }
@@ -29,7 +34,7 @@ h3{
 
 .Caja{
     width: 1000px;
-    background-color: black;
+    background-color: darkblue;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
@@ -37,7 +42,7 @@ h3{
 }
 
 .Barra_navegacion{
-    background-color: black;
+    background-color: darkblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +50,7 @@ h3{
 }
 
 .Barra_navegacion nav a{
-    color: darkblue;
+    color: rebeccapurple;
     margin: 20px;
     font-weight: bolder;
     font-size: 20px;
@@ -63,4 +68,10 @@ footer{
 
 .ContenedorLogo{
     text-align: center;
+}
+
+.Caja ol li::marker {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
 }
