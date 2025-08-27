@@ -34,7 +34,8 @@ footer {
 }
 
 body {
-    background-color:black;
+    background-image: url("./Recursos/FondoPagina.gif");
+    background-color: black;
 }
 
 .ContenedorLogo {
@@ -75,4 +76,8 @@ p {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
+}
+
+img{
+    border-radius: 10px;
 }
