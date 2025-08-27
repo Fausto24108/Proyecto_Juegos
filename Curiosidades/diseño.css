@@ -71,7 +71,7 @@ footer{
 }
 
 .Caja ol li::marker {
-    font-size: 1.5em;   /* Aumenta el tamaño del número */
-    font-weight: bold;  /* Lo pone en negrita */
-    color: white;       /* Cambia el color (ejemplo: blanco) */
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
 }
