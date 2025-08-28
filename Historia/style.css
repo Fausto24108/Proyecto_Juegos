@@ -103,24 +103,10 @@ h1 {
             background-color: #8abef0;
             transform: scale(1.05);
 }    
-.Barra_navegacion{
-    background-color: rgb(49, 153, 153);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 15px;
-}
 a{
     font-weight: bolder;
     color: blue;
     font-size: 17px;
-}
-.Barra_navegacion nav a{
-    color: rgb(128, 0, 0);
-    margin: 20px;
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .botonera a:active {
             box-shadow: 0 2px #88c9c9;
@@ -151,4 +137,20 @@ footer{
 
 .ContenedorLogo{
     text-align: center;
+}
+
+.Barra_navegacion nav a {
+    color: green;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Barra_navegacion {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
 }
