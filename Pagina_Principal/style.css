@@ -34,7 +34,10 @@ footer {
 }
 
 body {
-    background-color:black;
+    background-image: url();
+    background-color: rgb(37, 37, 37);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .ContenedorLogo {
@@ -75,4 +78,13 @@ p {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
 }
