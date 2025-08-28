@@ -88,3 +88,8 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: orangered;
 }
+
+h3{
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
