@@ -46,20 +46,20 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;   /* antes tenías más espacio, ahora es más fino */
-    height: 60px;        /* controla la altura máxima de la barra */
+    padding: 5px 10px;
+    height: 60px;
 }
 
 .Barra_navegacion nav a {
     color: green;
-    margin: 0 10px;      /* reduje los márgenes laterales */
+    margin: 0 10px;
     font-weight: bold;
-    font-size: 16px;     /* más chico para que no agrande la barra */
+    font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Barra_navegacion img {
-    width: 40px;         /* achicamos logo */
+    width: 40px;
     height: 40px;
 }
 
