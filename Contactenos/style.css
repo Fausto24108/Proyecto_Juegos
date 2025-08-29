@@ -35,35 +35,6 @@ h1 {
     font-size: 25px;
 }
 
-.Caja_1 {
-    color: blue;
-    width: 1000px;
-    background-color: black;
-    border: 2px solid blue;
-    margin: 20px auto auto auto;
-    border-radius: 15px;
-    padding: 20px;
-    gap: 20px;
-}
-
-.Caja_2 {
-    width: 1000px;
-    background-color: whitesmoke;
-    margin: 20px auto auto auto;
-    border-radius: 15px;
-    padding: 20px;
-    gap: 20px;
-}
-
-.Caja_Índice {
-    width: 1000px;
-    background-color: whitesmoke;
-    margin: 20px auto auto auto;
-    border-radius: 15px;
-    padding: 20px;
-    gap: 20px;
-}
-
 .Caja {
     width: 1000px;
     background-color: black;
