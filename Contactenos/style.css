@@ -22,7 +22,7 @@ h1 {
 }
 
 .Barra_navegacion nav a {
-    color: #09428d;
+    color: #3b47d4;
     margin: 20px;
     font-weight: bolder;
     font-size: 20px;
@@ -33,7 +33,7 @@ h1 {
 .Caja {
     width: 1000px;
     background-color: black;
-    border: 2px solid #3b47d4;
+    border: 2px solid whitesmoke;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
@@ -49,8 +49,8 @@ footer {
     font-size: 17px;
 }
 
-.Negro {
-    color: black;
+.Cyan {
+    color: cyan;
 }
 
 #Nombre {
