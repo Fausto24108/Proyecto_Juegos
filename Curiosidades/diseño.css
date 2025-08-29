@@ -86,3 +86,10 @@ footer{
     font-weight: bold;
     color: white;
 }
+
+footer img {
+    margin: 0;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+}
