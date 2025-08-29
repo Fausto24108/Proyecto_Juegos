@@ -87,3 +87,7 @@ footer{
 .Negro{
     color:black;
 }
+#Nombre{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+}
