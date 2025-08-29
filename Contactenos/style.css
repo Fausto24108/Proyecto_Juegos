@@ -1,6 +1,7 @@
 body{
         background-image: url("Imagenes/Fondo.jpg");
         background-size: cover;
+        background-attachment: fixed;
 }
 .Barra_navegacion{
     display:flex;
