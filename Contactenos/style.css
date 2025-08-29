@@ -69,11 +69,6 @@ h1{
     gap: 20px;
 }
 
-.Redonda {
-    width: 70px;
-    height: 70px;
-    border-radius:50%
-    }
 
 footer{
     width: 100%;
@@ -91,3 +86,8 @@ footer{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: orangered;
 }
+
+.Logo{
+    border-radius: 10px;
+}
+
