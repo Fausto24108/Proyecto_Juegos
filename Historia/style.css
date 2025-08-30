@@ -37,15 +37,15 @@ body {
         }
 img{
     margin: 10px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  orangered;
 }
 
 
-
-h1 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 40px;
-}
 
 
 .botonera a {
@@ -88,10 +88,7 @@ body {
             color: rgba(0, 0, 0, 0);
 }
 
-h1 {
-            font-size: 36px;
-            margin-bottom: 40px;
-}
+
 .botonera {
             margin-top: 30px;
         
@@ -137,8 +134,8 @@ footer{
 
 .ContenedorLogo{
     text-align: center;
+    margin: -10px;
 }
-
 .Barra_navegacion nav a {
     color: green;
     margin: 20px;
