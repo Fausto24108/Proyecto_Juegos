@@ -1,5 +1,9 @@
 body{
     background-image: url("./Imagenes/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 h1{
@@ -59,8 +63,9 @@ h3{
 }
 
 .Barra_navegacion img {
-    width: 40px;
-    height: 40px;
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
 }
 
 footer{
@@ -80,4 +85,11 @@ footer{
     font-size: 1.5em;
     font-weight: bold;
     color: white;
+}
+
+footer img {
+    margin: 0;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
 }
