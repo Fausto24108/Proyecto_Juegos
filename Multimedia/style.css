@@ -43,6 +43,10 @@ nav {
     gap: 15px;
 }
 
+audio{
+    width: 477px;
+}
+
 nav .Links {
     color: #fff;
     text-decoration: none;
