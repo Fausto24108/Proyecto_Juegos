@@ -43,11 +43,20 @@ nav {
     gap: 15px;
 }
 
+audio{
+    width: 710px;
+}
+
+.Caja-Audio{
+    margin: 15px;
+}
+
 nav .Links {
-    color: #fff;
+    color: lightgreen;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+    font-size: 20px;
 }
 
 nav .Links:hover {
@@ -104,5 +113,6 @@ footer{
 }
 
 .ContenedorLogo{
+    margin: 15px;
     text-align: center;
 }
