@@ -18,7 +18,7 @@ Este proyecto continuará evolucionando a medida que avancemos en el aprendizaje
 
 Todas las paginas pasaron por el w3c validator, y estan correctamente validadas. ✅
 
-Todas las paginas cumplen con las etiquetas "meta" obligatorias .✅
+Todas las paginas cumplen con las etiquetas "meta" obligatorias. ✅
 
 ¡Gracias por visitarnos y esperamos que te diviertas explorando nuestra página!
 
