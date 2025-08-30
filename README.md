@@ -23,9 +23,14 @@ Todas las paginas cumplen con las etiquetas "meta" obligatorias.✅
 ¡Gracias por visitarnos y esperamos que te diviertas explorando nuestra página!
 
 Autores:
-Fausto Poggi: Creador pagina JUEGOS
-Ceferino Fares: Creador pagina CONTACTENOS
-Thiago Rodriguez: Creador pagina HISTORIA
-Marco Abello: Creador pagina CURIOSIDADES
-Robert Weisser: Creador pagina MULTIMEDIA
-Sebastian Malpu: Creador pagina PRINCIPAL
+Fausto Poggi: Creador pagina JUEGOS.
+
+Ceferino Fares: Creador pagina CONTACTENOS.
+
+Thiago Rodriguez: Creador pagina HISTORIA.
+
+Marco Abello: Creador pagina CURIOSIDADES.
+
+Robert Weisser: Creador pagina MULTIMEDIA.
+
+Sebastian Malpu: Creador pagina PRINCIPAL.
