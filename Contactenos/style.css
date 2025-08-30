@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 body{
         background-image: url("Imágenes/Fondo.jpg");
         background-size: cover;
 }
 .Barra_navegacion{
     display:flex;
-=======
+}
 body {
     background-image: url("Imagenes/Fondo.jpg");
     background-size: cover;
@@ -14,13 +14,11 @@ body {
 
 .Barra_navegacion {
     display: flex;
->>>>>>> 459d3fd8efb18e93111f7c7a0dd5309d29011b44
     background-color: lightblue;
     justify-content: space-around;
     align-items: center;
     padding: 0 15px;
 }
-<<<<<<< HEAD
 *{
     color: #3b47d4;
     font-family: "Goudy Bookletter 1911", sans-serif; 
@@ -34,8 +32,7 @@ h1{
 
 .Barra_navegacion nav a{
     color: #09428d;
-=======
-
+}
 * {
     color: #3b47d4;
     font-family: "Goudy Bookletter 1911", sans-serif;
@@ -51,13 +48,11 @@ img{
 
 .Barra_navegacion nav a {
     color: #3b47d4;
->>>>>>> 459d3fd8efb18e93111f7c7a0dd5309d29011b44
     margin: 20px;
     font-weight: bolder;
     font-size: 20px;
     font-family: Times, "Times New Roman", Georgia, serif;
 }
-<<<<<<< HEAD
 #main{
     color:#272FA2;
     font-weight:bolder;
@@ -67,20 +62,18 @@ img{
     color: blue;
     width: 1000px;
     background-color: black;
-=======
+}
 
 
 .Caja {
     width: 1000px;
     background-color: whitesmoke;
->>>>>>> 459d3fd8efb18e93111f7c7a0dd5309d29011b44
     border: 2px solid blue;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
     gap: 20px;
 }
-<<<<<<< HEAD
 .Caja_2{
     width: 1000px;
     background-color: whitesmoke;
@@ -122,7 +115,6 @@ img{
     color: greenyellow;
     font-size: 17px;
 }
-=======
 
 footer {
     width: 100%;
@@ -148,5 +140,5 @@ footer {
 
 .FooterLogo {
     text-align: center;
+    border-radius: 10px;
 }
->>>>>>> 459d3fd8efb18e93111f7c7a0dd5309d29011b44
