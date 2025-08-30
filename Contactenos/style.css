@@ -1,12 +1,4 @@
 
-
-body{
-        background-image: url("Imágenes/Fondo.jpg");
-        background-size: cover;
-}
-.Barra_navegacion{
-    display:flex;
-}
 body {
     background-image: url("Imagenes/Fondo.jpg");
     background-size: cover;
@@ -26,21 +18,6 @@ body {
 }
 
 h1{
-    font-family: Times, "Times New Roman", Georgia, serif;
-}
-
-
-
-.Barra_navegacion nav a{
-    color: #09428d;
-}
-
-* {
-    color: #3b47d4;
-    font-family: "Goudy Bookletter 1911", sans-serif;
-}
-
-h1 {
     font-family: Times, "Times New Roman", Georgia, serif;
 }
 
@@ -69,18 +46,8 @@ img{
 .Redonda {
     width: 70px;
     height: 70px;
-    border-radius:50%
-    }
-
-    footer{
-    margin-top: 20px;
-    width: 100%;
-    height: 135px;
-    background-color: lightblue;
-    color: greenyellow;
-    font-size: 17px;
+    border-radius:50%;
 }
-
 
 footer{
     width: 100%;
@@ -102,10 +69,6 @@ footer{
 }
 
 .Logo {
-    border-radius: 10px;
-}
-
-.FooterLogo {
     border-radius: 10px;
 }
 
