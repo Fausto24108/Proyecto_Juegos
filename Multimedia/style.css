@@ -47,6 +47,10 @@ audio{
     width: 710px;
 }
 
+.Caja-Audio{
+    margin: 15px;
+}
+
 nav .Links {
     color: #fff;
     text-decoration: none;
