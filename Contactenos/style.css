@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 body{
         background-image: url("Imágenes/Fondo.jpg");
@@ -7,8 +7,6 @@ body{
 .Barra_navegacion{
     display:flex;
 }
-=======
->>>>>>> 65566fafb092acf74a6b9620f1f5f44c22c900ec
 body {
     background-image: url("Imagenes/Fondo.jpg");
     background-size: cover;
@@ -22,7 +20,6 @@ body {
     align-items: center;
     padding: 0 15px;
 }
-<<<<<<< HEAD
 *{
     color: #3b47d4;
     font-family: "Goudy Bookletter 1911", sans-serif; 
@@ -37,9 +34,7 @@ h1{
 .Barra_navegacion nav a{
     color: #09428d;
 }
-=======
 
->>>>>>> 65566fafb092acf74a6b9620f1f5f44c22c900ec
 * {
     color: #3b47d4;
     font-family: "Goudy Bookletter 1911", sans-serif;
@@ -60,7 +55,7 @@ img{
     font-size: 20px;
     font-family: Times, "Times New Roman", Georgia, serif;
 }
-<<<<<<< HEAD
+
 #main{
     color:#272FA2;
     font-weight:bolder;
@@ -71,8 +66,7 @@ img{
     width: 1000px;
     background-color: black;
 }
-=======
->>>>>>> 65566fafb092acf74a6b9620f1f5f44c22c900ec
+
 
 
 .Caja {
@@ -84,7 +78,7 @@ img{
     padding: 20px;
     gap: 20px;
 }
-<<<<<<< HEAD
+
 .Caja_2{
     width: 1000px;
     background-color: whitesmoke;
@@ -118,7 +112,6 @@ img{
     }
 
     footer{
-    display: flex;
     margin-top: 20px;
     width: 100%;
     height: 135px;
@@ -126,16 +119,16 @@ img{
     color: greenyellow;
     font-size: 17px;
 }
-=======
->>>>>>> 65566fafb092acf74a6b9620f1f5f44c22c900ec
 
-footer {
+
+footer{
     width: 100%;
     height: 135px;
     background-color: rgba(102, 55, 211, 0.966);
     color: greenyellow;
     border-radius: 10px;
     font-size: 17px;
+    text-align: center;
 }
 
 .Cyan {
@@ -152,6 +145,9 @@ footer {
 }
 
 .FooterLogo {
-    text-align: center;
     border-radius: 10px;
+}
+
+#Centrar{
+    text-align:center;
 }
