@@ -1,5 +1,9 @@
 body{
     background-image: url("./Imagenes/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 h1{
@@ -41,20 +45,27 @@ h3{
     gap: 20px;
 }
 
-.Barra_navegacion{
+.Barra_navegacion {
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
+    padding: 5px 10px;
+    height: 60px;
 }
 
-.Barra_navegacion nav a{
+.Barra_navegacion nav a {
     color: green;
-    margin: 20px;
-    font-weight: bolder;
-    font-size: 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Barra_navegacion img {
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
 }
 
 footer{
@@ -74,4 +85,11 @@ footer{
     font-size: 1.5em;
     font-weight: bold;
     color: white;
+}
+
+footer img {
+    margin: 0;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
 }
