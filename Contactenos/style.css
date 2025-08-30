@@ -56,48 +56,9 @@ img{
     font-family: Times, "Times New Roman", Georgia, serif;
 }
 
-#main{
-    color:#272FA2;
-    font-weight:bolder;
-    font-size:25px;
-}
-.Caja_1{
-    color: blue;
-    width: 1000px;
-    background-color: black;
-}
-
-
-
-.Caja {
-    width: 1000px;
-    background-color: whitesmoke;
-    border: 2px solid blue;
-    margin: 20px auto auto auto;
-    border-radius: 15px;
-    padding: 20px;
-    gap: 20px;
-}
-
-.Caja_2{
-    width: 1000px;
-    background-color: whitesmoke;
-    margin: 20px auto auto auto;
-    border-radius: 15px;
-    padding: 20px;
-    gap: 20px;
-}
-.Caja_Índice{
-    width: 1000px;
-    background-color: whitesmoke;
-    margin: 20px auto auto auto;
-    border-radius: 15px;
-    padding: 20px;
-    gap: 20px;
-}
 .Caja{
     width: 1000px;
-    background-color: black;
+    background-color: whitesmoke;
     border: 2px solid #3b47d4;
     margin: 20px auto auto auto;
     border-radius: 15px;
