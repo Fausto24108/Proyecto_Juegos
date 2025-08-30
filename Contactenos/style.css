@@ -36,8 +36,8 @@ img{
 
 .Caja {
     width: 1000px;
-    background-color: black;
-    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    border: 2px solid blue;
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
