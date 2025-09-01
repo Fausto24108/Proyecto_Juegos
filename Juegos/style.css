@@ -63,9 +63,9 @@ a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Contenedor h2 {
-  flex-basis: 100%;  
-  margin-bottom: 20px; 
+.Contenedor h2{
+    flex-basis: 100%;  
+    margin-bottom: 20px; 
 }
 
 .AjustarJuego{
@@ -80,19 +80,19 @@ a{
 }
 
 .Boton-Jugar{
-  display: inline-block; 
-  text-decoration: none; 
-  background: green;
-  color: white;
-  border: 1px solid blue;
-  border-radius: 15px;
-  padding: 12px 20px;
-  font-size: 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,.35);
+    display: inline-block; 
+    text-decoration: none; 
+    background: green;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 12px 20px;
+    font-size: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.35);
 }
 
 .Boton-Jugar:hover {
-  animation: glow 1.6s ease-out infinite;
+    animation: glow 1.6s ease-out infinite;
 }
 
 .AjustarJuego iframe{
