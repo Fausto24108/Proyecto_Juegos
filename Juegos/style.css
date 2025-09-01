@@ -1,7 +1,7 @@
 body{
     background-image: url("./Recursos/FondoPagina.gif");
     background-repeat: no-repeat;
-    background-size: 181%;
+    background-size: 182%;
     background-position: center;
 }
 
@@ -104,6 +104,7 @@ a{
 .Contenedor{
     width: 1000px;
     background-color: whitesmoke;
+    border: 3px solid rgb(19, 124, 194);
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
