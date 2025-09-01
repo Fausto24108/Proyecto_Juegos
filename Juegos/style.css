@@ -127,8 +127,8 @@ a{
     box-shadow: 0 6px 18px rgba(0,0,0,.35);
 }
 
-.Boton-Jugar:hover {
-  animation: glow 1.6s ease-out infinite;
+.Boton-Jugar:hover{
+    animation: glow 1.6s ease-out infinite;
 }
 
 .Barra_navegacion{
