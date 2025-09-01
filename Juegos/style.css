@@ -88,12 +88,12 @@ a{
   border-radius: 15px;
   padding: 12px 20px;
   font-size: 16px;
-  transition: transform 0.35s, box-shadow 0.35s, background 0.35s;
-  box-shadow: 0 6px 18px rgba(0,0,0,.35); /* sombra inicial */
+  box-shadow: 0 6px 18px rgba(0,0,0,.35);
 }
 
-
-
+.Boton-Jugar:hover {
+  animation: glow 1.6s ease-out infinite;
+}
 
 .AjustarJuego iframe{
     position: absolute;
