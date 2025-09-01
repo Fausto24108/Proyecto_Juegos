@@ -116,15 +116,15 @@ a{
 }
 
 .Boton-Jugar{
-  display: inline-block; 
-  text-decoration: none; 
-  background: green;
-  color: white;
-  border: 1px solid blue;
-  border-radius: 15px;
-  padding: 12px 20px;
-  font-size: 16px;
-  box-shadow: 0 6px 18px rgba(0,0,0,.35);
+    display: inline-block; 
+    text-decoration: none; 
+    background: green;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 12px 20px;
+    font-size: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.35);
 }
 
 .Boton-Jugar:hover {
@@ -147,14 +147,15 @@ a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Contenedor h2 {
-  flex-basis: 100%;  
-  margin-bottom: 20px; 
+.Contenedor h2{
+    flex-basis: 100%;  
+    margin-bottom: 20px; 
 }
 
 .Contenedor{
     width: 1000px;
     background-color: whitesmoke;
+    border: 3px solid rgb(19, 124, 194);
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
