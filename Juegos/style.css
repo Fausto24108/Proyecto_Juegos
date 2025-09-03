@@ -23,6 +23,11 @@ h2{
     to { left: 100%; }
 }
 
+.Estilos{
+    position: relative;
+    margin: 4px;
+    animation: Mover 8s linear infinite;
+}
 
 .Aviso{
     color: red;
