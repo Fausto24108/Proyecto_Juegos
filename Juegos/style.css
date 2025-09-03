@@ -18,8 +18,15 @@ h2{
     font-size: 25px;
 }
 
+@keyframes Mover {
+    from { left: 0; }
+    to { left: 100%; }
+}
+
 .Estilos{
+    position: relative;
     margin: 17px;
+    animation: Mover 8s linear infinite alternate;
 }
 
 .Aviso{
