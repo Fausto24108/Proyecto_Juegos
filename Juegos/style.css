@@ -18,6 +18,12 @@ h2{
     font-size: 25px;
 }
 
+@keyframes Mover{
+    from { left: -20%; }
+    to { left: 100%; }
+}
+
+
 .Aviso{
     color: red;
     font-size: 25px;
