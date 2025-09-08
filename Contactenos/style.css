@@ -35,6 +35,7 @@ img{
 }
 
 .Caja{
+    display:flex;
     width: 1000px;
     background-color: whitesmoke;
     border: 2px solid #3b47d4;
