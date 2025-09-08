@@ -80,7 +80,13 @@ a{
 }
 
 .Barra_navegacion nav a{
-    color: green;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5px;
+    transition: all 0.3s ease;
+    background-color: greenyellow;
+    border-radius: 25px;
+    color: blue;
     margin: 8px;
     font-weight: bolder;
     font-size: 20px;
