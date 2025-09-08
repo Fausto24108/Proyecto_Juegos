@@ -5,6 +5,11 @@ body{
     background-position: center;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: orangered;
@@ -143,15 +148,24 @@ a{
 }
 
 .Barra_navegacion{
-    background-color: lightblue;
+    background-color: lightcyan;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
+    height: 90px;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
 }
 
 .Barra_navegacion nav a{
-    color: green;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5px;
+    transition: all 0.3s ease;
+    background-color: greenyellow;
+    border-radius: 25px;
+    color: blue;
     margin: 8px;
     font-weight: bolder;
     font-size: 20px;
