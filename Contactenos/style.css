@@ -33,6 +33,19 @@ img{
     font-size: 20px;
     font-family: Times, "Times New Roman", Georgia, serif;
 }
+.btn{
+    display: flex;
+    margin: 30px auto auto auto;
+    width: 15%;
+    background-color: skyblue;
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0%;
+    border-radius: 8px;
+}
+
 .Ind_Caja{
     display:flex;
     flex-direction: column;
