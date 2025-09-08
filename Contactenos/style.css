@@ -36,6 +36,7 @@ img{
 
 .Caja{
     display:flex;
+    flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
     border: 2px solid #3b47d4;
