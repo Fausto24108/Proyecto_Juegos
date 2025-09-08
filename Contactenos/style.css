@@ -33,7 +33,17 @@ img{
     font-size: 20px;
     font-family: Times, "Times New Roman", Georgia, serif;
 }
-
+.Ind_Caja{
+    display:flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: whitesmoke;
+    border: 2px solid #3b47d4;
+    margin: 20px auto auto auto;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
 .Caja{
     display:flex;
     flex-direction: column;
