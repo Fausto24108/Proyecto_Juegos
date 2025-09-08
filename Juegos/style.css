@@ -5,6 +5,11 @@ body{
     background-position: center;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: orangered;
@@ -69,6 +74,8 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
+    width: 100%;
+    height: 90px;
 }
 
 .Barra_navegacion nav a{
