@@ -31,3 +31,12 @@
 body {
     background-color: forestgreen;
 }
+
+footer {
+    width: 100%;
+    height: 135px;
+    background-color: rgba(102, 55, 211, 0.966);
+    color: greenyellow;
+    border-radius: 10px;
+    font-size: 17px;
+}
