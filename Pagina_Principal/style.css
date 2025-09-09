@@ -1,17 +1,26 @@
-.Barra_navegacion nav a {
-    color: green;
-    margin: 20px;
+.Barra_navegacion nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5px;
+    transition: all 0.3s ease;
+    background-color: greenyellow;
+    border-radius: 25px;
+    color: blue;
+    margin: 8px;
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Barra_navegacion {
-    background-color: lightblue;
+.Barra_navegacion{
+    background-color: lightcyan;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
+    height: 90px;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
 }
 
 footer {
@@ -34,10 +43,10 @@ footer {
 }
 
 body {
-    background-image: url();
+    background-image: url(./recursos/);
     background-color: rgb(150, 115, 115);
-    background-repeat: no-repeat;
-    background-size:contain;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .ContenedorLogo {
