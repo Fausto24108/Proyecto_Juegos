@@ -12,6 +12,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.Links:hover{
+    color: purple;
+    font-size: 25px;
+}
+
 .Barra_navegacion{
     background-color: lightcyan;
     display: flex;
