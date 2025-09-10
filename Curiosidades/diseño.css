@@ -129,3 +129,7 @@ footer img {
 .Barra_navegacion h1 {
     color: red;
 }
+
+html {
+    scroll-behavior: smooth;
+}
