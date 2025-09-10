@@ -54,7 +54,7 @@ img{
     display:flex;
     flex-direction: column;
     width: 1000px;
-    background-color: whitesmoke;
+    background-image: url("Imagenes/caja.gif");
     border: 2px solid #3b47d4;
     margin: 20px auto auto auto;
     border-radius: 15px;
@@ -65,7 +65,7 @@ img{
     display:flex;
     flex-direction: column;
     width: 1000px;
-    background-color: whitesmoke;
+    background-image: url("Imagenes/caja.gif");
     border: 2px solid #3b47d4;
     margin: 20px auto auto auto;
     border-radius: 15px;
