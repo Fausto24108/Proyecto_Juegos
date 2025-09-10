@@ -50,13 +50,15 @@ img {
     align-items: center;
 }
 
-.Barra_navegacion {
-    background-color: lightblue;
+.Barra_navegacion{
+    background-color: lightcyan;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 15px;
-    height: 70px;
+    padding: 0 15px;
+    height: 90px;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
 }
 
 .Barra_navegacion nav a {
