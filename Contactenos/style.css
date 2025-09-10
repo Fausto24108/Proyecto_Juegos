@@ -40,7 +40,7 @@ img{
     display: flex;
     margin: 30px auto auto auto;
     width: 15%;
-    background-color: blue;
+    background-image: url("Imagenes/btn.gif");
     color:white;
     padding: 10px 20px;
     text-decoration: none;
