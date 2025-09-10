@@ -122,3 +122,8 @@ footer{
 #Centrar{
     text-align:center;
 }
+
+.blink:hover{
+    color: purple;
+    font-size: 25px;
+}
