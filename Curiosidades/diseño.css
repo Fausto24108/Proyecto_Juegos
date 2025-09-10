@@ -111,7 +111,8 @@ footer{
 }
 
 footer img {
-    margin: 0;
+    display: block;
+    margin: 0 auto;
     width: 65px;
     height: 65px;
     border-radius: 10px;
