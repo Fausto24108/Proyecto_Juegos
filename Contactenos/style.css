@@ -33,13 +33,20 @@ img{
     border-radius: 10px;
 }
 
-.Barra_navegacion nav a {
-    color: #3b47d4;
-    margin: 20px;
+.Barra_navegacion nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5px;
+    transition: all 0.3s ease;
+    background-color: greenyellow;
+    border-radius: 25px;
+    color: blue;
+    margin: 8px;
     font-weight: bolder;
     font-size: 20px;
-    font-family: Times, "Times New Roman", Georgia, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .btn{
     display: flex;
     margin: 30px auto auto auto;
