@@ -1,8 +1,17 @@
 body{
     background-image: url("./Recursos/FondoPagina.gif");
     background-repeat: no-repeat;
+<<<<<<< HEAD
+    background-size: cover;
+=======
     background-size: 198%;
+>>>>>>> 8e7e5cc5294cb7ffdcafaf4be117994acef74068
     background-position: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 h1{
@@ -18,6 +27,20 @@ h2{
     font-size: 25px;
 }
 
+<<<<<<< HEAD
+@keyframes Mover{
+    from { left: -20%; }
+    to { left: 100%; }
+}
+
+.Estilos{
+    position: relative;
+    margin: 4px;
+    animation: Mover 8s linear infinite;
+}
+
+=======
+>>>>>>> 8e7e5cc5294cb7ffdcafaf4be117994acef74068
 .Aviso{
     color: red;
     font-size: 25px;
@@ -25,6 +48,14 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
+.Links:hover{
+    color: purple;
+    font-size: 25px;
+}
+
+=======
+>>>>>>> 8e7e5cc5294cb7ffdcafaf4be117994acef74068
 h3{
     color: darkgoldenrod;
     font-weight: bolder;
@@ -59,24 +90,75 @@ a{
 }
 
 .Barra_navegacion{
-    background-color: lightblue;
+    background-color: lightcyan;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
+    height: 90px;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
 }
 
 .Barra_navegacion nav a{
-    color: green;
-    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5px;
+    transition: all 0.3s ease;
+    background-color: greenyellow;
+    border-radius: 25px;
+    color: blue;
+    margin: 8px;
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+<<<<<<< HEAD
+.Contenedor h2{
+    flex-basis: 100%;  
+    margin-bottom: 20px; 
+}
+
+.AjustarJuego{
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+@keyframes glow{
+    0% { box-shadow: 0 0 0 rgba(108,141,250,0), 0 0 0 rgba(108,141,250,0); }
+    70%{ box-shadow: 0 0 10px 4px red, 0 0 10px 4px blue; }
+    100%{ box-shadow: 0 0 0 rgba(108,141,250,0), 0 0 0 rgba(108,141,250,0); }
+}
+
+.Boton-Jugar{
+    display: inline-block; 
+    text-decoration: none; 
+    background: green;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 12px 20px;
+    font-size: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.35);
+}
+
+.Boton-Jugar:hover {
+    animation: glow 1.6s ease-out infinite;
+}
+
+.AjustarJuego iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+=======
+>>>>>>> 8e7e5cc5294cb7ffdcafaf4be117994acef74068
 .Contenedor{
     width: 1000px;
     background-color: whitesmoke;
+    border: 3px solid rgb(19, 124, 194);
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
@@ -97,5 +179,6 @@ footer{
 }
 
 .ContenedorLogo{
+    margin: 12px;
     text-align: center;
 }
