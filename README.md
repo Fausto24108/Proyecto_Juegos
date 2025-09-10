@@ -13,8 +13,11 @@ Incluye secciones como:
 -Pagina para probar juegos desde la WEB.
 
 -Contacto y redes sociales con información sobre nuestro equipo.
+<<<<<<< HEAD
 
 -Merchandising de los juegos.
+=======
+>>>>>>> 8e7e5cc5294cb7ffdcafaf4be117994acef74068
 
 Este proyecto continuará evolucionando a medida que avancemos en el aprendizaje de HTML5, CSS y JavaScript.
 
@@ -36,4 +39,8 @@ Marco Abello: Creador pagina CURIOSIDADES.
 
 Robert Weisser: Creador pagina MULTIMEDIA.
 
+<<<<<<< HEAD
 Ezequiel Malpu: Creador pagina PRINCIPAL y MERCHANDISING.
+=======
+Ezequiel Malpu: Creador pagina PRINCIPAL.
+>>>>>>> 8e7e5cc5294cb7ffdcafaf4be117994acef74068
