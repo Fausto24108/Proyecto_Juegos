@@ -22,10 +22,11 @@ h2 {
     margin-bottom: 8px;
 }
 
-p{
+p {
     text-align: center;
     color: #4E1065;
-    font-size: 22px;
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 img{
