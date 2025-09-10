@@ -133,3 +133,8 @@ footer img {
 html {
     scroll-behavior: smooth;
 }
+
+.botones {
+  text-align: center;
+  margin: 20px 0;
+}
