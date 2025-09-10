@@ -29,9 +29,12 @@ p {
     line-height: 1.4;
 }
 
-img{
+img {
     border-radius: 10px;
-    margin: 48px;
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 .Juego{
