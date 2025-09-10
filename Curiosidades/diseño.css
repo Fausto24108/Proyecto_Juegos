@@ -37,13 +37,17 @@ img {
     margin: 10px auto;
 }
 
-.Caja{
-    width: 1000px;
+.Caja {
     background-color: #D98FF0;
-    margin: 20px auto auto auto;
-    border-radius: 15px;
-    padding: 20px;
-    gap: 20px;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-align: center;
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Barra_navegacion {
