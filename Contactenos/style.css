@@ -5,12 +5,15 @@ body {
     background-attachment: fixed;
 }
 
-.Barra_navegacion {
+.Barra_navegacion{
+    background-color: lightcyan;
     display: flex;
-    background-color: lightblue;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0 15px;
+    height: 90px;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
 }
 
 *{
