@@ -68,9 +68,9 @@ img {
 }
 
 .Barra_navegacion img {
-    width: 65px;
-    height: 65px;
-    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
 }
 
 footer{
@@ -87,7 +87,7 @@ footer{
 }
 
 .Caja ol li::marker {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
     color: #15933B;
 }
