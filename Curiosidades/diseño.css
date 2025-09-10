@@ -55,16 +55,16 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
-    height: 60px;
+    padding: 5px 15px;
+    height: 70px;
 }
 
 .Barra_navegacion nav a {
     color: green;
-    margin: 0 10px;
+    margin: 0 8px;
     font-weight: bold;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .Barra_navegacion img {
