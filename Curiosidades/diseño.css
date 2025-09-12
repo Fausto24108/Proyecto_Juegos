@@ -158,3 +158,13 @@ html {
 .btn:hover {
   background-color: #087a65;
 }
+
+.Caja_botones {
+  background-color: #D98FF0;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  text-align: center;
+  margin: 20px auto;
+  max-width: 900px;
+}
