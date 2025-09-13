@@ -50,21 +50,22 @@ img {
     align-items: center;
 }
 
-.Barra_navegacion{
+.Barra_navegacion {
     background-color: lightcyan;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 0 15px;
     height: 90px;
     border-top: 3px solid crimson;
     border-bottom: 3px solid crimson;
+    gap: 20px;
 }
 
-.Barra_navegacion nav a{
+.Barra_navegacion nav a {
     display: inline-block;
     text-decoration: none;
-    padding: 1.5px;
+    padding: 6px 12px;
     transition: all 0.3s ease;
     background-color: greenyellow;
     border-radius: 25px;
@@ -75,10 +76,21 @@ img {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.Barra_navegacion h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+    font-size: 28px;
+    margin: 0;
+}
+
 .Barra_navegacion img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 8px;
+}
+
+.Barra_navegacion nav {
+    margin-left: auto;
 }
 
 .Links:hover{
