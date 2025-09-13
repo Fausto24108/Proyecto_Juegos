@@ -89,6 +89,11 @@ img {
     color: red;
 }
 
+.Barra_navegacion nav {
+    display: flex;
+    gap: 15px;
+}
+
 .Links:hover{
     color: purple;
     font-size: 25px;
