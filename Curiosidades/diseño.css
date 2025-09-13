@@ -90,8 +90,8 @@ img {
 
 .Barra_navegacion h1 {
     margin: 0;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: bolder;
     color: red;
 }
 
@@ -102,7 +102,6 @@ img {
 
 .Barra_navegacion nav a:hover {
     color: purple;
-    background-color: #d0ffb1;
 }
 
 .Links:hover{
