@@ -63,16 +63,14 @@ img {
 }
 
 .Barra_navegacion nav a {
-    display: inline-block;
     text-decoration: none;
-    padding: 1.5px;
+    padding: 8px 15px;
     transition: all 0.3s ease;
     background-color: greenyellow;
     border-radius: 25px;
     color: blue;
-    margin: 8px;
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -93,6 +91,7 @@ img {
     display: flex;
     gap: 15px;
 }
+
 
 .Links:hover{
     color: purple;
