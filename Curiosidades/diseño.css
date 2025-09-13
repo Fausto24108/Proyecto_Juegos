@@ -92,6 +92,10 @@ img {
     gap: 15px;
 }
 
+.Barra_navegacion nav a:hover {
+    color: purple;
+    background-color: #d0ffb1;
+}
 
 .Links:hover{
     color: purple;
