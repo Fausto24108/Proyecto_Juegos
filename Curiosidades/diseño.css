@@ -50,34 +50,26 @@ img {
     align-items: center;
 }
 
-.Caja img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Barra_navegacion {
+.Barra_navegacion{
     background-color: lightcyan;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
     padding: 0 15px;
     height: 90px;
     border-top: 3px solid crimson;
     border-bottom: 3px solid crimson;
 }
 
-
-.Barra_navegacion nav a {
+.Barra_navegacion nav a{
     display: inline-block;
     text-decoration: none;
-    padding: 1.5px 10px;
-    margin: 8px;
+    padding: 1.5px;
+    transition: all 0.3s ease;
     background-color: greenyellow;
     border-radius: 25px;
     color: blue;
+    margin: 8px;
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -87,22 +79,6 @@ img {
     width: 60px;
     height: 60px;
     border-radius: 8px;
-}
-
-.Barra_navegacion h1 {
-    margin: 0;
-    font-size: 32px;
-    font-weight: bolder;
-    color: red;
-}
-
-.Barra_navegacion nav {
-    display: flex;
-    gap: 15px;
-}
-
-.Barra_navegacion nav a:hover {
-    color: purple;
 }
 
 .Links:hover{
@@ -149,6 +125,10 @@ footer img {
     max-width: 1200px;
     margin: 20px auto;
     padding: 10px;
+}
+
+.Barra_navegacion h1 {
+    color: red;
 }
 
 html {
