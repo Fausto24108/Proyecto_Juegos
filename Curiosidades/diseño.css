@@ -82,6 +82,13 @@ img {
     border-radius: 8px;
 }
 
+.Barra_navegacion h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+}
+
 .Links:hover{
     color: purple;
     font-size: 25px;
