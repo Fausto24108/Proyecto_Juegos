@@ -66,6 +66,7 @@ img{
     align-items: center;
     flex-direction: column;
 }
+
 .productos{
     flex-direction:row;
     display: flex;
@@ -80,4 +81,10 @@ img{
 .Linktienda:hover {
     color: purple;
     font-size: 25px;
+}
+
+.consolas{
+    flex-direction:row;
+    display: flex;
+    gap: 10px;
 }
