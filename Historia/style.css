@@ -137,8 +137,8 @@ footer{
 .Barra_navegacion{
     background-color: lightcyan;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0 15px;
     height: 90px;
     border-top: 3px solid crimson;
@@ -148,12 +148,12 @@ footer{
 .Barra_navegacion nav a{
     display: inline-block;
     text-decoration: none;
-    padding: 1.5px;
+    padding: 8px;
     transition: all 0.3s ease;
     background-color: greenyellow;
     border-radius: 25px;
     color: blue;
-    margin: 2.5px;
+    margin: 8px;
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
