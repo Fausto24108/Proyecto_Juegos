@@ -148,7 +148,7 @@ footer{
 .Barra_navegacion nav a{
     display: inline-block;
     text-decoration: none;
-    padding: 8px;
+    padding: 7px;
     transition: all 0.3s ease;
     background-color: greenyellow;
     border-radius: 25px;
