@@ -91,9 +91,10 @@ ol li::marker{
     padding: 20px;
     gap: 20px;
 }
-.Caja{
+.Caja_variante{
     display:flex;
     flex-direction: column;
+    background-color: aliceblue;
     width: 1000px;
     background-size: cover;
     border: 2px solid #3b47d4;
