@@ -1,71 +1,101 @@
-body{
+body {
     background-image: url("./Imagenes/Fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: red;
-}
-
-h2{
-    color: white;
-}
-
-p{
+    color: #0C9D84;
     text-align: center;
-    color: red;
-
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
-img{
+h2 {
+    color: #15933B;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+p {
+    text-align: center;
+    color: #4E1065;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+img {
     border-radius: 10px;
-    margin: 48px;
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
-.Juego{
-     text-align: center;
-}
+.Caja {
+    background-color: #D98FF0;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-align: center;
+    font-size: 14px;
 
-h3{
-    text-decoration: underline;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.Caja{
-    width: 1000px;
-    background-color: darkblue;
-    margin: 20px auto auto auto;
-    border-radius: 15px;
-    padding: 20px;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Barra_navegacion {
-    background-color: lightblue;
+    background-color: lightcyan;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 5px 10px;
-    height: 60px;
+    padding: 0 15px;
+    height: 90px;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
+    gap: 20px;
 }
 
 .Barra_navegacion nav a {
-    color: green;
-    margin: 0 10px;
-    font-weight: bold;
-    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 12px;
+    transition: all 0.3s ease;
+    background-color: greenyellow;
+    border-radius: 25px;
+    color: blue;
+    margin: 8px;
+    font-weight: bolder;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.Barra_navegacion h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+    font-size: 28px;
+    margin: 0;
+}
+
 .Barra_navegacion img {
-    width: 65px;
-    height: 65px;
-    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.Barra_navegacion nav {
+    margin-left: auto;
+}
+
+.Links:hover{
+    color: purple;
+    font-size: 25px;
 }
 
 footer{
@@ -82,14 +112,73 @@ footer{
 }
 
 .Caja ol li::marker {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
-    color: white;
+    color: #15933B;
+}
+
+.Caja ol {
+    padding-left: 20px;
+    text-align: left;
 }
 
 footer img {
-    margin: 0;
+    display: block;
+    margin: 0 auto;
     width: 65px;
     height: 65px;
     border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.Barra_navegacion h1 {
+    color: red;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #0C9D84;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #087a65;
+}
+
+.Caja_botones {
+  background-color: #FF6EC7;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  text-align: center;
+  margin: 20px auto;
+  max-width: 900px;
 }

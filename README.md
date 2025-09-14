@@ -14,6 +14,8 @@ Incluye secciones como:
 
 -Contacto y redes sociales con información sobre nuestro equipo.
 
+-Merchandising de los juegos.
+
 Este proyecto continuará evolucionando a medida que avancemos en el aprendizaje de HTML5, CSS y JavaScript.
 
 Todas las paginas pasaron por el w3c validator, y estan correctamente validadas. ✅
@@ -34,4 +36,4 @@ Marco Abello: Creador pagina CURIOSIDADES.
 
 Robert Weisser: Creador pagina MULTIMEDIA.
 
-Ezequiel Malpu: Creador pagina PRINCIPAL.
+Ezequiel Malpu: Creador pagina PRINCIPAL y MERCHANDISING.
