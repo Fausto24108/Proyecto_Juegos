@@ -187,7 +187,6 @@ footer{
 }
 
 .caja-botonera {
-  display: flex;
   justify-content: center;
   gap: 15px;
   background: #001d3d;
@@ -196,6 +195,11 @@ footer{
   margin: 20px auto;
   max-width: 800px;
   box-shadow: 0 0 10px rgba(0,180,216,0.5);
+  flex-direction: column; 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  max-width: 1000px; 
+  margin: auto; 
 }
 
 .caja-botonera .btn {
@@ -206,6 +210,8 @@ footer{
   border-radius: 8px;
   font-weight: bold;
   transition: 0.3s;
+  display: flex;
+  
 }
 
 .caja-botonera .btn:hover {
