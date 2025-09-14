@@ -63,9 +63,11 @@ img{
     border-style:groove;
     border-color: cyan;
 }
+
 ol li::marker{
     color: black;
 }
+
 .Ind_Caja{
     display:flex;
     flex-direction: column;
@@ -79,6 +81,7 @@ ol li::marker{
     padding: 20px;
     gap: 20px;
 }
+
 .Caja{
     display:flex;
     flex-direction: column;
@@ -91,10 +94,11 @@ ol li::marker{
     padding: 20px;
     gap: 20px;
 }
+
 .Caja_variante{
     display:flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color:aliceblue;
     width: 1000px;
     background-size: cover;
     border: 2px solid #3b47d4;
@@ -103,6 +107,7 @@ ol li::marker{
     padding: 20px;
     gap: 20px;
 }
+
 .Redonda {
     width: 70px;
     height: 70px;
@@ -134,6 +139,7 @@ footer{
 #Centrar{
     text-align:center;
 }
+
 .Links{
     font-size: 20px;
 }
