@@ -36,8 +36,4 @@ Marco Abello: Creador pagina CURIOSIDADES.
 
 Robert Weisser: Creador pagina MULTIMEDIA.
 
-<<<<<<< HEAD
 Ezequiel Malpu: Creador pagina PRINCIPAL y MERCHANDISING.
-=======
-Ezequiel Malpu: Creador pagina PRINCIPAL.
->>>>>>> 8e7e5cc5294cb7ffdcafaf4be117994acef74068
