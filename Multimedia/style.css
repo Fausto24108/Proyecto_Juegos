@@ -193,3 +193,11 @@ footer{
 .mapa-texto {
     max-width: 400px;
 }
+
+.botones-navegacion {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
