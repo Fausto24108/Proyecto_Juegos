@@ -138,11 +138,11 @@ footer{
     background-color: lightcyan;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 15px;
     height: 90px;
     border-top: 3px solid crimson;
     border-bottom: 3px solid crimson;
-    gap: 65px;
 }
 
 .Barra_navegacion nav a{
