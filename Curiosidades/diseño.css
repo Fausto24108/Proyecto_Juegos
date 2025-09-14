@@ -50,6 +50,17 @@ img {
     align-items: center;
 }
 
+.Barra_navegacion{
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 90px;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
+}
+
 .Barra_navegacion nav a{
     display: inline-block;
     text-decoration: none;
@@ -61,20 +72,6 @@ img {
     margin: 8px;
     font-weight: bolder;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.Barra_navegacion nav a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 6px 12px;
-    transition: all 0.3s ease;
-    background-color: greenyellow;
-    border-radius: 25px;
-    color: blue;
-    margin: 8px;
-    font-weight: bolder;
-    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -135,10 +132,6 @@ footer img {
     max-width: 1200px;
     margin: 20px auto;
     padding: 10px;
-}
-
-.Barra_navegacion h1 {
-    color: red;
 }
 
 html {
