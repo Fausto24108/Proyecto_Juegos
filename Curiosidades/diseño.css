@@ -41,7 +41,6 @@ img {
     background-color: #D98FF0;
     border-radius: 12px;
     padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     text-align: center;
     font-size: 14px;
 
@@ -78,7 +77,7 @@ img {
 .Barra_navegacion h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: orangered;
-    font-size: 28px;
+    font-size: 30px;
     margin: 0;
 }
 
@@ -147,7 +146,7 @@ html {
 
 .btn {
   display: inline-block;
-  padding: 10px 18px;
+  padding: 8px;
   margin: 5px;
   font-size: 16px;
   font-weight: bold;
@@ -168,7 +167,6 @@ html {
   background-color: #FF6EC7;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   text-align: center;
   margin: 20px auto;
   max-width: 900px;
