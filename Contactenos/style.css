@@ -130,3 +130,17 @@ footer{
     color: purple;
     font-size: 25px;
 }
+
+@keyframes section{
+    from{
+        transform: translateX(20px);
+    }
+    to{
+        transform: translateX(200px);
+    }
+}
+
+.sections{
+    animation: section 2s linear infinite;
+    animation-direction: alternate;
+}
