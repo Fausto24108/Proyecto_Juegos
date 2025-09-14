@@ -8,12 +8,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #0C9D84;
-    text-align: center;
+    color: orangered;
     font-size: 28px;
-    margin-bottom: 10px;
 }
 
 h2 {
@@ -72,13 +75,6 @@ img {
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.Barra_navegacion h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: orangered;
-    font-size: 30px;
-    margin: 0;
 }
 
 .Barra_navegacion img {
@@ -157,6 +153,7 @@ html {
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  justify-content: center;
 }
 
 .btn:hover {
