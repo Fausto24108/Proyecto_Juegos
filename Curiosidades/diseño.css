@@ -4,16 +4,13 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #0C9D84;
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 10px;
 }
 
 h2 {
@@ -41,10 +38,8 @@ img {
     background-color: #D98FF0;
     border-radius: 12px;
     padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     text-align: center;
     font-size: 14px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,44 +48,39 @@ img {
 .Barra_navegacion {
     background-color: lightcyan;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
     padding: 0 15px;
     height: 90px;
     border-top: 3px solid crimson;
     border-bottom: 3px solid crimson;
-    gap: 20px;
 }
 
-.Barra_navegacion nav a {
+.Barra_navegacion nav a{
     display: inline-block;
     text-decoration: none;
-    padding: 6px 12px;
+    padding: 8px;
     transition: all 0.3s ease;
     background-color: greenyellow;
     border-radius: 25px;
     color: blue;
     margin: 8px;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Barra_navegacion h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: orangered;
-    font-size: 28px;
-    margin: 0;
+    font-size: 30px;
+    margin: 0 85px;
 }
 
 .Barra_navegacion img {
     width: 70px;
     height: 70px;
     border-radius: 8px;
-}
-
-.Barra_navegacion nav {
-    margin-left: auto;
 }
 
 .Links:hover{
@@ -139,10 +129,6 @@ footer img {
     padding: 10px;
 }
 
-.Barra_navegacion h1 {
-    color: red;
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -156,7 +142,7 @@ html {
 
 .btn {
   display: inline-block;
-  padding: 10px 18px;
+  padding: 8px;
   margin: 5px;
   font-size: 16px;
   font-weight: bold;
@@ -167,6 +153,7 @@ html {
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  justify-content: center;
 }
 
 .btn:hover {
@@ -177,7 +164,6 @@ html {
   background-color: #FF6EC7;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   text-align: center;
   margin: 20px auto;
   max-width: 900px;
