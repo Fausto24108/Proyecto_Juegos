@@ -145,13 +145,6 @@ footer{
     border-bottom: 3px solid crimson;
 }
 
-@media (min-width: 1400px){
-    .Barra_navegacion{
-        justify-content: center;
-        gap: 70px;
-    }
-}
-
 .Barra_navegacion nav a{
     display: inline-block;
     text-decoration: none;
