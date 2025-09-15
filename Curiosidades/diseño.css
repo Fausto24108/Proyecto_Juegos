@@ -53,7 +53,7 @@ img {
     background-color: lightcyan;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 15px;
     height: 90px;
     border-top: 3px solid crimson;
@@ -86,6 +86,7 @@ img {
     width: 70px;
     height: 70px;
     border-radius: 8px;
+    margin: 0px;
 }
 
 .Links:hover{
@@ -147,12 +148,15 @@ html {
 
 .btn {
   display: inline-block;
-  padding: 10px;
-  margin: 6px;
+  padding: 8px;
+  margin: 5px;
   font-size: 16px;
+  font-weight: bold;
   color: white;
-  border: 1px green;
+  background-color: #0c9d84;
+  border: none;
   border-radius: 10px;
+  text-decoration:none;
   cursor: pointer;
   transition: background-color 0.3s ease;
   justify-content: center;
