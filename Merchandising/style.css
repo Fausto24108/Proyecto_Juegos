@@ -88,3 +88,8 @@ img{
     display: flex;
     gap: 10px;
 }
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+}
