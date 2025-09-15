@@ -88,3 +88,17 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: orangered;
 }
+
+.btn {
+    display: inline-block;
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #1631dd;
+    border: 1px solid purple;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
