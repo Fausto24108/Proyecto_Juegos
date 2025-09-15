@@ -97,8 +97,15 @@ h1{
     font-weight: bold;
     color: white;
     background-color: #1631dd;
-    border: 1px solid purple;
+    border: 2px solid firebrick;
     border-radius: 8px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: rgb(142, 106, 167);
+    border: 2px solid rgb(57, 9, 73);
+    color: white;
+    font-size: 20px;
+}
