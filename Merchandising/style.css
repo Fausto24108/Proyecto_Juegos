@@ -54,7 +54,7 @@ img{
     align-items: flex-start;
     flex-direction: column;
     width: 1200px; 
-    background-color: rgba(213, 209, 209, 0.583);
+    background-color: rgb(255, 255, 255);
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
