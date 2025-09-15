@@ -79,8 +79,10 @@ img {
     color: orangered;
 }
 
-.Barra_navegacion img{
-    margin: 0px;
+.Barra_navegacion img {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
 }
 
 .Links:hover{
@@ -147,10 +149,10 @@ html {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background-color: #0C9D84;
+  background-color: #0c9d84;
   border: none;
-  border-radius: 8px;
-  text-decoration: none;
+  border-radius: 10px;
+  text-decoration:none;
   cursor: pointer;
   transition: background-color 0.3s ease;
   justify-content: center;

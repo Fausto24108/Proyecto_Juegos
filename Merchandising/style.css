@@ -1,8 +1,8 @@
 .Barra_navegacion{
     background-color: lightcyan;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0 15px;
     height: 90px;
     border-top: 3px solid crimson;
@@ -12,7 +12,7 @@
 .Barra_navegacion nav a{
     display: inline-block;
     text-decoration: none;
-    padding: 1.5px;
+    padding: 8px;
     transition: all 0.3s ease;
     background-color: greenyellow;
     border-radius: 25px;
@@ -29,7 +29,7 @@
 }
 
 body {
-    background-color: forestgreen;
+    background-color: rgb(155, 199, 199);
 }
 
 footer {
@@ -50,20 +50,62 @@ img{
 }
 
 .Contenedor {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     width: 1200px; 
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgb(255, 255, 255);
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
     gap: 20px;
 }
 
-.Linktienda {
-    background-color: rgb(165, 135, 165);
-    border-radius: 10px;
-    font-size: 20px;
+.Item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.productos{
+    flex-direction:row;
+    display: flex;
+    gap: 10px;
+}
+
 .Linktienda:hover {
     color: purple;
     font-size: 25px;
+}
+
+.consolas{
+    flex-direction:row;
+    display: flex;
+    gap: 10px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #1631dd;
+    border: 2px solid firebrick;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: rgb(142, 106, 167);
+    border: 2px solid rgb(57, 9, 73);
+    color: white;
+    font-size: 20px;
 }
