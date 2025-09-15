@@ -29,7 +29,7 @@
 }
 
 body {
-    background-color: forestgreen;
+    background-color: lightcyan;
 }
 
 footer {
@@ -54,7 +54,7 @@ img{
     align-items: flex-start;
     flex-direction: column;
     width: 1200px; 
-    background-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(213, 209, 209, 0.583);
     margin: 20px auto auto auto;
     border-radius: 15px;
     padding: 20px;
