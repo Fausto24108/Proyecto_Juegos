@@ -7,11 +7,6 @@ body{
     padding: 0px;
 }
 
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: orangered;
-}
-
 #Introduccion{
     position: relative;
     width: 100%;
@@ -32,6 +27,34 @@ h1{
     width: 100%;
     height: 100%;
 }
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 5px 5px blue;
+    padding: 30px;
+    font-size: 70px;
+}
+
+.Medio{
+    background-image: url(../Recursos/Medio.jpg);
+    width: 100%;
+    height: 100%;
+    margin: -4px;
+    border-top: 5px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 5px solid black;
+}
+
+.Medio p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    margin: 27px;
+}
+
+
 
 h2{
     color: magenta;
