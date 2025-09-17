@@ -12,6 +12,12 @@ h1{
     color: orangered;
 }
 
+#Introduccion video{
+    width: 100%;
+    height: 100%;
+
+}
+
 h2{
     color: magenta;
     text-decoration: underline;
@@ -39,7 +45,7 @@ h2{
 }
 
 .Links:hover{
-    color: purple;
+    color: blue;
     font-size: 25px;
 }
 
@@ -142,7 +148,7 @@ a{
 }
 
 .Barra_navegacion{
-    background-color: lightcyan;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -157,9 +163,9 @@ a{
     text-decoration: none;
     padding: 8px;
     transition: all 0.3s ease;
-    background-color: greenyellow;
+    background-color: red;
     border-radius: 25px;
-    color: blue;
+    color: white;
     margin: 8px;
     font-weight: bolder;
     font-size: 20px;
