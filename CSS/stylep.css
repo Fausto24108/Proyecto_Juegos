@@ -117,5 +117,9 @@ h3{
 }
 
 .imagen {
+    border: 1px;
+}
+
+.imagen:hover {
     
 }
