@@ -49,8 +49,8 @@ img {
     align-items: center;
 }
 
-.Barra_navegacion {
-    background-color: lightcyan;
+.Barra_navegacion{
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,9 +65,9 @@ img {
     text-decoration: none;
     padding: 8px;
     transition: all 0.3s ease;
-    background-color: greenyellow;
+    background-color: red;
     border-radius: 25px;
-    color: blue;
+    color: white;
     margin: 8px;
     font-weight: bolder;
     font-size: 20px;
@@ -79,10 +79,8 @@ img {
     color: orangered;
 }
 
-.Barra_navegacion img {
-    width: 70px;
-    height: 70px;
-    border-radius: 8px;
+.Barra_navegacion img{
+    margin: 0px;
 }
 
 .Links:hover{
@@ -149,10 +147,10 @@ html {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background-color: #0c9d84;
+  background-color: #0C9D84;
   border: none;
-  border-radius: 10px;
-  text-decoration:none;
+  border-radius: 8px;
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
   justify-content: center;
@@ -168,5 +166,5 @@ html {
   padding: 20px;
   text-align: center;
   margin: 20px auto;
-  max-width: 900px;
+  max-width: 900px;
 }
