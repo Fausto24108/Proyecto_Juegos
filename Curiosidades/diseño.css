@@ -183,3 +183,7 @@ html {
   transform-style: preserve-3d;
   transition: transform 0.8s;
 }
+
+.tarjeta:hover .tarjeta__contenido {
+  transform: rotateY(180deg);
+}
