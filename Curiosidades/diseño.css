@@ -187,3 +187,12 @@ html {
 .tarjeta:hover .tarjeta__contenido {
   transform: rotateY(180deg);
 }
+
+.tarjeta__cara {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+}
