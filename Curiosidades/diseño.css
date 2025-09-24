@@ -168,3 +168,10 @@ html {
   margin: 20px auto;
   max-width: 900px;
 }
+
+.tarjeta {
+  width: 250px;
+  height: 180px;
+  margin: 20px auto;
+  perspective: 1000px;
+}
