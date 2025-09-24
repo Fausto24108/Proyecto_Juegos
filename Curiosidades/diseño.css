@@ -204,3 +204,13 @@ html {
   border-radius: 12px;
   display: block;
 }
+
+.tarjeta__cara--trasera {
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 12px;
+  overflow: hidden;
+}
