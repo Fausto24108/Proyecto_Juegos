@@ -196,3 +196,11 @@ html {
   border-radius: 12px;
   overflow: hidden;
 }
+
+.tarjeta__cara--frontal img {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
