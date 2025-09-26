@@ -14,7 +14,11 @@ Incluye secciones como:
 
 -Contacto y redes sociales con información sobre nuestro equipo.
 
+<<<<<<< HEAD
 -Merchandising sobre los juegos.
+=======
+-Merchandising de los juegos.
+>>>>>>> ac6a7654cfbe653e88794ec7fec5c01872eae074
 
 Este proyecto continuará evolucionando a medida que avancemos en el aprendizaje de HTML5, CSS y JavaScript.
 

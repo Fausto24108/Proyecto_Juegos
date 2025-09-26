@@ -1,0 +1,117 @@
+.Barra_navegacion{
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 90px;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
+}
+
+.Barra_navegacion nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px;
+    transition: all 0.3s ease;
+    background-color: greenyellow;
+    border-radius: 25px;
+    color: blue;
+    margin: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Links:hover{
+    color: purple;
+    font-size: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 135px;
+    background-color: rgba(102, 55, 211, 0.966);
+    color: greenyellow;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.Contenedor {
+    width: 1200px; 
+    background-color: rgba(245, 245, 245, 0.7);
+    margin: 20px auto auto auto;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+    text-align:center;
+}
+
+body {
+    background-image: url(./recursos/);
+    background-color: rgb(150, 115, 115);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.ContenedorLogo {
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Contenedor1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+      
+.Box1,
+.Box2 {
+    width: 560px; 
+    background-color: rgb(245, 245, 245, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Contenedor2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.Box3,
+.Box4 {
+    width: 560px; 
+    background-color: rgb(245, 245, 245, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+}
+
+h3{
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    color:magenta;
+}
+
+.Contenedor3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
