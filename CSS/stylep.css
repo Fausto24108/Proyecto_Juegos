@@ -118,8 +118,10 @@ h3{
 
 .imagen {
     border: 1px;
+    transition: transform 0.8s;
 }
 
 .imagen:hover {
-    
+    transform: rotateY(180deg);
 }
+
