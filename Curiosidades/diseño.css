@@ -133,13 +133,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.botones {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
 .btn {
   display: inline-block;
   padding: 8px;
