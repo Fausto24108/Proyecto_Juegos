@@ -150,7 +150,9 @@ html {
 }
 
 .btn:hover {
-  background-color: #087a65;
+  background-color: darkgreen;
+  transform: scale(1.1); /* efecto de agrandar */
+  cursor: pointer;
 }
 
 .Caja_botones {
