@@ -36,6 +36,12 @@ img {
     height: auto;
     display: block;
     margin: 10px auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.2); /* la agranda */
+  filter: brightness(1.2); /* más brillante */
 }
 
 .Caja {
