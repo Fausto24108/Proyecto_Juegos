@@ -156,7 +156,7 @@ html {
 
 .btn:hover {
   background-color: darkgreen;
-  transform: scale(1.1);
+  font-size: 20px;
 }
 
 .Caja_botones {
