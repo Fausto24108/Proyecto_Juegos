@@ -40,8 +40,7 @@ img {
 }
 
 img:hover {
-  transform: scale(1.2); /* la agranda */
-  filter: brightness(1.2); /* más brillante */
+  transform: scale(1.2);
 }
 
 .Caja {
@@ -151,7 +150,7 @@ html {
   border-radius: 8px;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s ease, font-size 0.3s ease;
 }
 
 .btn:hover {
@@ -220,4 +219,10 @@ html {
   border: none;
   border-radius: 12px;
   display: block;
+}
+
+.animar {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 1s ease forwards;
 }
