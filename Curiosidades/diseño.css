@@ -238,3 +238,14 @@ html {
   opacity: 0;
   animation: fadeIn 1.5s ease forwards;
 }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.resaltar {
+  transition: all 0.4s ease;
+  border-radius: 8px;
+}
