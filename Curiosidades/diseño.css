@@ -233,3 +233,8 @@ html {
     transform: translateY(0);
   }
 }
+
+.mostrar {
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
