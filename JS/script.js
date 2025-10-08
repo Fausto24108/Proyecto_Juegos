@@ -15,6 +15,7 @@ function Modo(){
 
     if(ModoDN){
         document.body.style.backgroundColor = Dia;
+        document.body.style.filter = "brightness(1)";
         Barra.style.backgroundColor = "white";
         Barra.style.borderTop = "3px solid crimson";
         Barra.style.borderBottom = "3px solid crimson";
@@ -30,6 +31,7 @@ function Modo(){
 
     else{
         document.body.style.backgroundColor = Noche;
+        document.body.style.filter = "brightness(0.9)";
         Barra.style.backgroundColor = "black";
         Barra.style.borderTop = "3px solid black";
         Barra.style.borderBottom = "3px solid black";
