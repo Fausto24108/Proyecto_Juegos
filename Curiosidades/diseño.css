@@ -204,13 +204,12 @@ html {
 }
 
 .tarjeta__cara--trasera {
+  background-color: whitesmoke;
   transform: rotateY(180deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  border-radius: 12px;
-  overflow: hidden;
+  box-shadow: 0 0 15px blue;
+  border: 3px solid blue;
+  opacity: 1;
+  transition: box-shadow 0.3s ease, border 0.3s ease;
 }
 
 .tarjeta__cara--trasera iframe {
