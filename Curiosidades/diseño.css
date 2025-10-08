@@ -252,6 +252,6 @@ html {
 
 .resaltar:hover {
   box-shadow: 0 0 20px 4px purple;
-  border: 2px solid purple;
+  border: 10px solid purple;
   transform: scale(1.05);
 }
