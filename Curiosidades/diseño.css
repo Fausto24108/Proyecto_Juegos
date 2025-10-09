@@ -30,6 +30,10 @@ p {
     line-height: 1.4;
 }
 
+.TituloImagen {
+  font-size: 330px;
+}
+
 img {
     border-radius: 10px;
     max-width: 220px;
