@@ -247,3 +247,17 @@ html {
     opacity: 1;
   }
 }
+
+.TituloBarra {
+  max-width: none;
+  width: 330px;
+  height: 90px;
+  margin: 0;
+  border-radius: 0;
+  transition: none;
+}
+
+.TituloBarra:hover {
+  transform: none;
+  filter: none;
+}
