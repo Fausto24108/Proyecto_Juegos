@@ -244,6 +244,7 @@ a{
 
 .Mando{
     margin-left: 39%;
+    cursor: pointer;
 }
 
 .Contenedor{
@@ -256,6 +257,9 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    max-height: 9999px;
+    overflow: hidden;
+    transition: 0.5s ease;
 }
 
 .Fondo{

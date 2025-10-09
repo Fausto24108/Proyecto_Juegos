@@ -5,6 +5,7 @@ let ContenedorDia = "whitesmoke";
 let ContenedorNoche = "rgb(60, 60, 60)";
 let FooterDia = "rgba(102, 55, 211, 0.966)";
 let FooterNoche = "grey";
+let ContenedorAbierto = true;
 
 function Modo(){
     const Barra = document.getElementsByClassName("Barra_navegacion")[0]; 
@@ -44,5 +45,20 @@ function Modo(){
 
         ModoDN = true;
     }
-    
 }
+
+    function ActivarContenedor(){
+        const Contenedor = document.getElementsByClassName("Contenedor")[0]; 
+        
+        if(ContenedorAbierto){
+            Contenedor.style.maxHeight = "0px";
+            Contenedor.style.padding = "15px";
+            ContenedorAbierto = false;
+        }
+
+        else{
+            Contenedor.style.maxHeight = "9999px";
+            Contenedor.style.padding = "20px";
+            ContenedorAbierto = true;
+        }
+}    
