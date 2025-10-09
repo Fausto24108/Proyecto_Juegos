@@ -247,14 +247,3 @@ html {
     opacity: 1;
   }
 }
-
-.resaltar {
-  transition: all 0.4s ease;
-  border-radius: 8px;
-}
-
-.resaltar:hover {
-  box-shadow: 0 0 20px 4px purple;
-  border: 10px solid purple;
-  transform: scale(1.05);
-}
