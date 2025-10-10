@@ -244,7 +244,6 @@ footer{
     transform: rotateY(180deg);
     box-shadow: 0 0 15px blue;
     border: 3px solid blue;
-    opacity: 1;
     transition: box-shadow 0.3s ease, border 0.3s ease;
 }
 
@@ -253,4 +252,7 @@ background: #833AB4;
 background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
-
+.facebook{
+background: #020024;
+background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(13, 27, 224, 1) 46%, rgba(0, 212, 255, 1) 100%);
+}
