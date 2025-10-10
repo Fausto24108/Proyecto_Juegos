@@ -175,3 +175,35 @@ footer{
 
 }
 
+.marcar {
+    text-align: center;
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.marcar::after,
+.marcar:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #3b47d4, #00ffff);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.marcar::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.marcar:hover::after,
+.marcar:hover::before {
+  transform: scaleX(1);
+}
+
+
