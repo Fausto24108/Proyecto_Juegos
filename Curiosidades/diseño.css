@@ -43,10 +43,6 @@ img {
     transition: transform 0.3s ease;
 }
 
-img:hover {
-  transform: scale(1.2);
-}
-
 .Caja {
     background-color: #D98FF0;
     border-radius: 12px;
@@ -262,12 +258,14 @@ html {
   filter: none;
 }
 
-.gif {
-  width: 220px;
-  height: 150px;
+.tarjeta__cara--trasera img {
+  width: 250px;
+  max-width: none;
+  height: auto;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 12px;
   display: block;
-  margin: 10px auto;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 0px;
+  padding: 0px;
+  border: none;
 }
