@@ -256,3 +256,8 @@ background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1)
 background: #020024;
 background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(13, 27, 224, 1) 46%, rgba(0, 212, 255, 1) 100%);
 }
+
+.X{
+background: #fafafa;
+background: radial-gradient(circle, rgba(250, 250, 250, 1) 0%, rgba(227, 227, 227, 1) 0%, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 1) 100%);
+}
