@@ -261,3 +261,12 @@ html {
   transform: none;
   filter: none;
 }
+
+.gif-fijo {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
