@@ -163,3 +163,15 @@ footer{
     animation-direction: alternate;
 }
 
+#introduccion{
+    background-image: url("Imagenes/mgs1.jpg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+
+}
+
