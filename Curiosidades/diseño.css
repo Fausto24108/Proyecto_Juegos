@@ -262,11 +262,12 @@ html {
   filter: none;
 }
 
-.gif-fijo {
+.gif {
   width: 220px;
   height: 150px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
   margin: 10px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
