@@ -271,3 +271,15 @@ background: linear-gradient(90deg,rgba(252, 69, 69, 1) 0%, rgba(222, 16, 16, 1) 
     gap: 20px;
 }
 
+@keyframes stars{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(6650px);
+    }
+}
+.star{
+    animation: stars 10s linear infinite;
+    animation-direction: alternate;
+}
