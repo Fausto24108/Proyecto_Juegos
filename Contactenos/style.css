@@ -207,8 +207,8 @@ footer{
 }
 
 .tarjeta{
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     perspective: 1000px;
     position: relative;
 }
