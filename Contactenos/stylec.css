@@ -1,5 +1,5 @@
 body {
-    background-image: url("Imagenes/Fondo.jpg");
+    background-image: url("Recursos/Fondo.jpg");
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -50,7 +50,7 @@ img{
     display: flex;
     margin: 30px auto auto auto;
     width: 15%;
-    background-image: url("Imagenes/btn.gif");
+    background-image: url("Recursos/btn.gif");
     color:white;
     padding: 10px 20px;
     text-decoration: none;
@@ -69,7 +69,7 @@ ol li::marker{
     display:flex;
     flex-direction: column;
     width: 1000px;
-    background-image: url("Imagenes/caja2.gif");
+    background-image: url("Recursos/caja2.gif");
     background-size: cover;
     border: 2px solid #3b47d4;
     margin: 20px auto auto auto;
@@ -147,7 +147,7 @@ footer{
 }
 
 #introduccion{
-    background-image: url("Imagenes/mgs1.jpg"); 
+    background-image: url("Recursos/mgs1.jpg"); 
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,12 +250,12 @@ footer{
 }
 
 #Nosotros{
-    background-image: url("Imagenes/edificio.jpg");
+    background-image: url("Recursos/edificio.jpg");
     background-repeat: no-repeat;
 }
 
 #indice{
-    background-image: url("Imagenes/snake.jpg"); 
+    background-image: url("Recursos/snake.jpg"); 
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
