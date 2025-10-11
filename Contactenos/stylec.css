@@ -7,14 +7,13 @@ body {
 }
 
 .Barra_navegacion{
-    background-color: lightcyan;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
     height: 90px;
     border-top: 3px solid crimson;
-    flex-shrink: 0;
     border-bottom: 3px solid crimson;
 }
 
@@ -40,14 +39,13 @@ img{
     text-decoration: none;
     padding: 8px;
     transition: all 0.3s ease;
-    background-color: greenyellow;
+    background-color: red;
     border-radius: 25px;
-    color: blue;
+    color: white;
     margin: 8px;
     font-weight: bolder;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 .btn{
     display: flex;
