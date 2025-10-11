@@ -1,0 +1,275 @@
+body {
+    background-image: url("../Recursos/FondoCuriosidades.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0C9D84;
+}
+
+h2 {
+    color: #15933B;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+p {
+    text-align: center;
+    color: #4E1065;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.TituloImagen {
+  font-size: 330px;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    transition: transform 0.3s ease;
+}
+
+.Caja {
+    background-color: #D98FF0;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Barra_navegacion{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 90px;
+    border-top: 3px solid crimson;
+    border-bottom: 3px solid crimson;
+}
+
+.Barra_navegacion nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px;
+    transition: all 0.3s ease;
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+    margin: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Barra_navegacion h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orangered;
+}
+
+.Barra_navegacion img{
+    margin: 0px;
+}
+
+.Links:hover{
+    color: purple;
+    font-size: 25px;
+}
+
+footer{
+    width: 100%;
+    height: 135px;
+    background-color: rgba(102, 55, 211, 0.966);
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+footer p{
+    color: greenyellow;
+}
+
+.ContenedorLogo{
+    text-align: center;
+    margin: 20px;
+}
+
+.Caja ol li::marker {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #15933B;
+}
+
+.Caja ol {
+    padding-left: 20px;
+    text-align: left;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #0C9D84;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, font-size 0.3s ease;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+  font-size: 20px;
+}
+
+.Caja_botones {
+  background-color: #FF6EC7;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.tarjeta {
+  width: 250px;
+  height: 180px;
+  margin: 20px auto;
+  perspective: 1000px;
+}
+
+.tarjeta__contenido {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.tarjeta:hover .tarjeta__contenido {
+  transform: rotateY(180deg);
+}
+
+.tarjeta__cara {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tarjeta__cara--frontal img {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.tarjeta__cara--trasera {
+  background-color: whitesmoke;
+  transform: rotateY(180deg);
+  box-shadow: 0 0 15px purple;
+  border: 3px solid purple;
+  opacity: 1;
+  transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.tarjeta__cara--trasera iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+  display: block;
+}
+
+.animar {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 1s ease forwards;
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mostrar {
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.TituloBarra {
+  max-width: none;
+  width: 330px;
+  height: 90px;
+  margin: 0;
+  border-radius: 0;
+  transition: none;
+}
+
+.TituloBarra:hover {
+  transform: none;
+  filter: none;
+}
+
+.tarjeta__cara--trasera img {
+  width: 270px;
+  max-width: none;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
