@@ -104,6 +104,7 @@ footer{
 
 .ContenedorLogo{
     text-align: center;
+    margin: 10px;
 }
 
 .Caja ol li::marker {
