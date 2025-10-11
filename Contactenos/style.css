@@ -68,19 +68,7 @@ ol li::marker{
     color: black;
 }
 
-.Ind_Caja{
-    display:flex;
-    flex-direction: column;
-    width: 1000px;
-    background-image: url("Imagenes/caja.gif");
-    background-repeat:repeat-y;
-    background-size: 100%;
-    border: 2px solid #3b47d4;
-    margin: 20px auto auto auto;
-    border-radius: 15px;
-    padding: 20px;
-    gap: 20px;
-}
+
 
 .Caja{
     display:flex;
@@ -168,7 +156,6 @@ footer{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     height: 100vh;
     text-align: center;
     align-content: center;
@@ -270,4 +257,16 @@ background: linear-gradient(90deg,rgba(252, 69, 69, 1) 0%, rgba(222, 16, 16, 1) 
 #Nosotros{
     background-image: url("Imagenes/edificio.jpg");
     background-repeat: no-repeat;
+}
+
+#indice{
+    background-image: url("Imagenes/snake.jpg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+        padding: 20px;
+    gap: 20px;
 }
