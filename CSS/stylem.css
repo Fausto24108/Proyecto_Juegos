@@ -68,10 +68,18 @@ img{
     flex-direction: column;
 }
 
+.Item img{
+    transition: transform 1.5s ease-in-out;
+}
+
+.Item img:hover {
+    transform: scale(1.1);
+}
+
 .productos{
     flex-direction:row;
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 .Linktienda:hover {
@@ -82,7 +90,7 @@ img{
 .Consolas{
     flex-direction:row;
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 
 h1{
