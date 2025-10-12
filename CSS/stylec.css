@@ -69,7 +69,7 @@ ol li::marker{
     display:flex;
     flex-direction: column;
     width: 1000px;
-    background-image: url("../Recursos/caja2.gif");
+    background-image: url("../Recursos/div.jpg");
     background-size: cover;
     border: 2px solid #3b47d4;
     margin: 20px auto auto auto;
@@ -81,7 +81,8 @@ ol li::marker{
 .Caja_variante{
     display:flex;
     flex-direction: column;
-    background-color:aliceblue;
+    background-image: url("../Recursos/div.jpg");
+    background-attachment: fixed;
     width: 1000px;
     background-size: cover;
     border: 2px solid #3b47d4;
@@ -154,7 +155,7 @@ footer{
     height: 100vh;
     text-align: center;
     align-content: center;
-
+    margin-bottom: 10px;
 }
 
 .marcar {
