@@ -81,7 +81,8 @@ ol li::marker{
 .Caja_variante{
     display:flex;
     flex-direction: column;
-    background-color:aliceblue;
+    background-image: url("../Recursos/div.jpg");
+    background-attachment: fixed;
     width: 1000px;
     background-size: cover;
     border: 2px solid #3b47d4;
