@@ -23,6 +23,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+@keyframes slideDown{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+      }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
 .Links:hover{
     color: purple;
     font-size: 25px;
@@ -31,6 +43,7 @@
 body {
     background-color: rgb(155, 199, 199);
     background-image: url(../recursos/fondo503.png);
+    animation: slideDown 2s;
 }
 
 footer {
