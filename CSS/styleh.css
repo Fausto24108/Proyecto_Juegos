@@ -52,7 +52,7 @@ h1{
 }
 
 .Links:hover{
-    color: purple;
+    color: rgb(48, 48, 206);
     font-size: 25px;
 }
 
@@ -135,10 +135,10 @@ footer{
 }
 
 .Barra_navegacion{
-    background-color: lightcyan;
+    background-color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 0 15px;
     height: 90px;
     border-top: 3px solid crimson;
@@ -148,11 +148,11 @@ footer{
 .Barra_navegacion nav a{
     display: inline-block;
     text-decoration: none;
-    padding: 1.5px;
+    padding: 8px;
     transition: all 0.3s ease;
-    background-color: greenyellow;
+    background-color: red;
     border-radius: 25px;
-    color: blue;
+    color: white;
     margin: 8px;
     font-weight: bolder;
     font-size: 20px;
