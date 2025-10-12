@@ -95,7 +95,7 @@ h1{
     margin: 5px;
     font-size: 16px;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: #1631dd;
     border: 2px solid firebrick;
     border-radius: 8px;
@@ -104,9 +104,9 @@ h1{
 }
 
 .btn:hover {
-    background: rgb(142, 106, 167);
+    background: rgb(41, 249, 104);
     border: 2px solid rgb(57, 9, 73);
-    color: white;
+    color: rgb(0, 0, 0);
     font-size:16px;
 }
 
@@ -141,7 +141,7 @@ h1{
 
 .Frente {
     background-color: #1631dd; 
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 18px;
     border: 2px solid firebrick;
