@@ -1,8 +1,20 @@
+@keyframes Bajar{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+      }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 body {
     background-image: url("../Recursos/Fondo.jpg");
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    animation: Bajar 2s ease-out;
 }
 
 .Barra_navegacion{
