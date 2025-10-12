@@ -30,6 +30,7 @@
 
 body {
     background-color: rgb(155, 199, 199);
+    background-image: url(../recursos/fondo503.png);
 }
 
 footer {
@@ -85,8 +86,8 @@ img{
 }
 
 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(42, 42, 42);
 }
 
 .btn {
