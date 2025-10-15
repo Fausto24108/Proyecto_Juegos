@@ -8,6 +8,7 @@ let FooterNoche = "grey";
 let ContenedorAbierto = true;
 
 function Modo(){
+    const Main = document.getElementsByTagName("main")[0];
     const Barra = document.getElementsByClassName("Barra_navegacion")[0]; 
     const Contenedor = document.getElementsByClassName("Contenedor")[0]; 
     const Parrafos = document.getElementsByClassName("Descripcion"); 
@@ -15,10 +16,9 @@ function Modo(){
     const Botones = document.querySelectorAll(".Barra_navegacion nav a");
     const MarioMedio = document.getElementsByClassName("Medio")[0];
 
-
     if(ModoDN){
         document.body.style.backgroundColor = Dia;
-        document.body.style.filter = "brightness(1)";
+        Main.style.filter = "brightness(1)";
         Barra.style.backgroundColor = "white";
         Barra.style.borderTop = "3px solid crimson";
         Barra.style.borderBottom = "3px solid crimson";
@@ -48,7 +48,7 @@ function Modo(){
 
     else{
         document.body.style.backgroundColor = Noche;
-        document.body.style.filter = "brightness(0.9)";
+        Main.style.filter = "brightness(0.9)";
         Barra.style.backgroundColor = "black";
         Barra.style.borderTop = "3px solid black";
         Barra.style.borderBottom = "3px solid black";
@@ -76,18 +76,25 @@ function Modo(){
     }
 }
 
-    function ActivarContenedor(){
-        const Contenedor = document.getElementsByClassName("Contenedor")[0]; 
+function ActivarContenedor(){
+    const Contenedor = document.getElementsByClassName("Contenedor")[0]; 
         
-        if(ContenedorAbierto){
-            Contenedor.style.maxHeight = "0px";
-            Contenedor.style.padding = "15px";
-            ContenedorAbierto = false;
-        }
+    if(ContenedorAbierto){
+        Contenedor.style.maxHeight = "0px";
+        Contenedor.style.padding = "15px";
+        ContenedorAbierto = false;
+    }
 
-        else{
-            Contenedor.style.maxHeight = "9999px";
-            Contenedor.style.padding = "20px";
-            ContenedorAbierto = true;
-        }
-}    
+    else{
+        Contenedor.style.maxHeight = "9999px";
+        Contenedor.style.padding = "20px";
+        ContenedorAbierto = true;
+    }
+}
+
+function SubirPagina(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
