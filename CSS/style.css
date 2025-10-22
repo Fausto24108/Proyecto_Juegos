@@ -26,6 +26,34 @@ body{
     height: 100%;
 }
 
+#Modo{
+    position: absolute;
+    width: 5%;
+    height: 9%;
+    border-radius: 110px;
+    margin: 10px;
+    z-index: 1;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 0px 4px 12px rgb(255, 255, 255);
+}
+
+
+#Modo:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 12px rgb(0, 0, 0);
+
+}
+
+#Modo:active{
+    transform: translateY(5px);
+}
+
+#Modo img{
+    width: 100%;
+    height: 100%;
+}
+
 #Introduccion video{
     width: 100%;
     height: 100%;
@@ -229,6 +257,7 @@ a{
 
 .Mando{
     margin-left: 39%;
+    cursor: pointer;
 }
 
 .Contenedor{
@@ -241,10 +270,41 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    max-height: 9999px;
+    overflow: hidden;
+    transition: 0.5s ease;
 }
 
 .Fondo{
     background-color: black;
+}
+
+.BotonSubir{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    border-radius: 100px;
+    border: 3px solid blue;
+    box-shadow: 5px 5px 10px rgba(7, 133, 236, 0.7);
+    z-index: 9999;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.BotonSubir img{
+    width: 100%;
+    height: auto;
+}
+
+.BotonSubir:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 12px rgb(0, 0, 0);
+}
+
+.BotonSubir:active{
+    transform: translateY(5px);
 }
 
 footer{
