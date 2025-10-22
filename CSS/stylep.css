@@ -52,6 +52,7 @@ body {
     background-color: rgb(150, 115, 115);
     background-repeat: repeat;
     background-size: contain;
+    animation: slideDown 2s;
 }
 
 .ContenedorLogo {
@@ -116,4 +117,14 @@ h3{
     margin-top: 20px;
 }
 
+@keyframes slideDown{
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+      }
 
+    to{
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
