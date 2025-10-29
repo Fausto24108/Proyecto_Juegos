@@ -26,7 +26,6 @@ body{
     height: 100%;
 }
 
-<<<<<<< HEAD
 #Modo{
     position: absolute;
     width: 5%;
@@ -55,8 +54,6 @@ body{
     height: 100%;
 }
 
-=======
->>>>>>> 46ad5a6 (Creando Recursos)
 #Introduccion video{
     width: 100%;
     height: 100%;
@@ -260,10 +257,7 @@ a{
 
 .Mando{
     margin-left: 39%;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 46ad5a6 (Creando Recursos)
 }
 
 .Contenedor{
@@ -276,19 +270,15 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-<<<<<<< HEAD
     max-height: 9999px;
     overflow: hidden;
     transition: 0.5s ease;
-=======
->>>>>>> 46ad5a6 (Creando Recursos)
 }
 
 .Fondo{
     background-color: black;
 }
 
-<<<<<<< HEAD
 .BotonSubir{
     position: fixed;
     width: 55px;
@@ -317,8 +307,6 @@ a{
     transform: translateY(5px);
 }
 
-=======
->>>>>>> 46ad5a6 (Creando Recursos)
 footer{
     width: 100%;
     height: 135px;
