@@ -13,6 +13,7 @@ body{
 
 }
 .Caja_1{
+    display: flex;
     flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
@@ -22,6 +23,7 @@ body{
     gap: 20px;
 }
 .Caja_2{
+    display:flex;
     flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
@@ -31,6 +33,7 @@ body{
     gap: 20px;
 }
 .Caja_Índice{
+    display:flex;
     flex-direction: column;
     width: 1000px;
     background-color: whitesmoke;
