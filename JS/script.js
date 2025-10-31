@@ -166,6 +166,35 @@ forma2.addEventListener('click', function(){
     }
 });
 
+const Fausto=document.getElementById('Fausto');
+const forma5=document.getElementById('forma5');
+
+const img51= './Recursos/pz.gif';
+const img52= './Recursos/Fausto.png';
+
+forma5.addEventListener('click', function(){
+    if(Fausto.src.includes('Fausto.png')){
+        Fausto.src=img51;
+    }
+    else{
+        Fausto.src=img52;
+    }
+});
+const Malpu=document.getElementById('Malpu');
+const forma6=document.getElementById('forma6');
+
+const img61= './Recursos/gnbp.gif';
+const img62= './Recursos/Malpu.png';
+
+forma6.addEventListener('click', function(){
+    if(Malpu.src.includes('Malpu.png')){
+        Malpu.src=img61;
+    }
+    else{
+        Malpu.src=img62;
+    }
+});
+
 const Thiago=document.getElementById('Thiago');
 const forma3=document.getElementById('forma3');
 
