@@ -139,3 +139,12 @@ forma.addEventListener('click', function(){
 
 const activa=document.getElementById('activa');
 const tema=document.getElementById('tema');
+
+activa.addEventListener('click', function(){
+    if(tema.paused){
+    tema.play();
+    }
+    else{
+        tema.pause();
+    }
+});
