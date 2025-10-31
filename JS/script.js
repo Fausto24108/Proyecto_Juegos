@@ -125,7 +125,7 @@ ver.addEventListener('click', function(){
 const Ceferino=document.getElementById('Ceferino');
 const forma=document.getElementById('forma');
 
-const img1= './Recursos/piolin.gif';
+const img1= './Recursos/favmgs.gif';
 const img2= './Recursos/Ceferino.png';
 
 forma.addEventListener('click', function(){
