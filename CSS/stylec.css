@@ -295,3 +295,11 @@ footer{
 #ext{
     display: none;
 }
+
+#mostrar{
+    display: flex;;
+    background-color:whitesmoke;
+    height: 30px;
+    width: 160px;
+    cursor:pointer;
+}
