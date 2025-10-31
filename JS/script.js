@@ -136,3 +136,6 @@ forma.addEventListener('click', function(){
         Ceferino.src=img2;
     }
 });
+
+const activa=document.getElementById('activa');
+const tema=document.getElementById('tema');
