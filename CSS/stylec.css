@@ -308,3 +308,9 @@ footer{
     font-size: 30px;
     cursor:pointer;
 }
+
+#forma{
+    height: 80px;
+    width: 250px;
+    font-size: 25px;
+}
