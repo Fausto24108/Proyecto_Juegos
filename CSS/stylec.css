@@ -292,3 +292,6 @@ footer{
     animation-direction: alternate;
 }
 
+#ext{
+    display: none;
+}
