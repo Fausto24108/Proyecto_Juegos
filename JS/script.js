@@ -213,9 +213,12 @@ forma3.addEventListener('click', function(){
 const activa=document.getElementById('activa');
 const tema=document.getElementById('tema');
 
+tema.play();
+
 activa.addEventListener('click', function(){
     if(tema.paused){
     tema.play();
+    tema.loop= true;
     }
     else{
         tema.pause();
