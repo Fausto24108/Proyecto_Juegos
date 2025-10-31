@@ -136,6 +136,50 @@ forma.addEventListener('click', function(){
         Ceferino.src=img2;
     }
 });
+const Robert=document.getElementById('Robert');
+const forma4=document.getElementById('forma4');
+
+const img41= './Recursos/pkmn.gif';
+const img42= './Recursos/Robert.png';
+
+forma4.addEventListener('click', function(){
+    if(Robert.src.includes('Robert.png')){
+        Robert.src=img41;
+    }
+    else{
+        Robert.src=img42;
+    }
+});
+
+const Marco=document.getElementById('Marco');
+const forma2=document.getElementById('forma2');
+
+const img21= './Recursos/hrzn.gif';
+const img22= './Recursos/Marco.png';
+
+forma2.addEventListener('click', function(){
+    if(Marco.src.includes('Marco.png')){
+        Marco.src=img21;
+    }
+    else{
+        Marco.src=img22;
+    }
+});
+
+const Thiago=document.getElementById('Thiago');
+const forma3=document.getElementById('forma3');
+
+const img31= './Recursos/tlou.gif';
+const img32= './Recursos/Thiago.png';
+
+forma3.addEventListener('click', function(){
+    if(Thiago.src.includes('Thiago.png')){
+        Thiago.src=img31;
+    }
+    else{
+        Thiago.src=img32;
+    }
+});
 
 const activa=document.getElementById('activa');
 const tema=document.getElementById('tema');
