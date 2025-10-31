@@ -293,11 +293,11 @@ footer{
     animation-direction: alternate;
 }
 
-#int{
+#int, #ext{
     display: none;
 }
 
-#mostrar{
+#mostrar, #ver{
     display: flex;;
     background-color:whitesmoke;
     height: 40px;

@@ -101,6 +101,8 @@ function SubirPagina(){
 
 const mostrar= document.getElementById('mostrar');
 const int= document.getElementById('int');
+const ext= document.getElementById('ext');
+const ver= document.getElementById('ver');
 
 mostrar.addEventListener('click', function(){
     if(int.style.display== 'none'){
@@ -108,5 +110,14 @@ mostrar.addEventListener('click', function(){
     }
     else{
         int.style.display= 'none';
+    }
+});
+
+ver.addEventListener('click', function(){
+    if(ext.style.display== 'none'){
+    ext.style.display= 'block';
+    }
+    else{
+        ext.style.display= 'none';
     }
 });
