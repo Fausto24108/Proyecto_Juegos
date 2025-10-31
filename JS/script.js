@@ -99,3 +99,14 @@ function SubirPagina(){
     });
 }
 
+const mostrar= document.getElementById('mostrar');
+const ext= document.getElementById('ext');
+
+mostrar.addEventListener('click', function(){
+    if(ext.style.display== 'none'){
+    ext.style.display= 'block';
+    }
+    else{
+        ext.style.display= 'none';
+    }
+});
