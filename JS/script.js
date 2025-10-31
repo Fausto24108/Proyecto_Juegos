@@ -98,3 +98,41 @@ function SubirPagina(){
         behavior: "smooth"
     });
 }
+
+const mostrar= document.getElementById('mostrar');
+const int= document.getElementById('int');
+const ext= document.getElementById('ext');
+const ver= document.getElementById('ver');
+
+mostrar.addEventListener('click', function(){
+    if(int.style.display== 'none'){
+    int.style.display= 'block';
+    }
+    else{
+        int.style.display= 'none';
+    }
+});
+
+ver.addEventListener('click', function(){
+    if(ext.style.display== 'none'){
+    ext.style.display= 'block';
+    }
+    else{
+        ext.style.display= 'none';
+    }
+});
+
+const Ceferino=document.getElementById('Ceferino');
+const forma=document.getElementById('forma');
+
+const img1= './Recursos/piolin.gif';
+const img2= './Recursos/Ceferino.png';
+
+forma.addEventListener('click', function(){
+    if(Ceferino.src.includes('Ceferino.png')){
+        Ceferino.src=img1;
+    }
+    else{
+        Ceferino.src=img2;
+    }
+});

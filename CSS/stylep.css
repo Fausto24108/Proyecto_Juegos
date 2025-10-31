@@ -116,4 +116,15 @@ h3{
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.imagen {
+    border: 1px;
+    transition: transform 0.8s;
+}
+
+.imagen:hover {
+    transform: rotateY(180deg);
+}
+>>>>>>> 46ad5a6 (Creando Recursos)
 
