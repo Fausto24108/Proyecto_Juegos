@@ -121,3 +121,5 @@ ver.addEventListener('click', function(){
         ext.style.display= 'none';
     }
 });
+
+const Ceferino=document.getElementById('Ceferino');
