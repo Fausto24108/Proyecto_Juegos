@@ -100,13 +100,13 @@ function SubirPagina(){
 }
 
 const mostrar= document.getElementById('mostrar');
-const ext= document.getElementById('ext');
+const int= document.getElementById('int');
 
 mostrar.addEventListener('click', function(){
-    if(ext.style.display== 'none'){
-    ext.style.display= 'block';
+    if(int.style.display== 'none'){
+    int.style.display= 'block';
     }
     else{
-        ext.style.display= 'none';
+        int.style.display= 'none';
     }
 });
