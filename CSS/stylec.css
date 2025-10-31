@@ -73,6 +73,24 @@ img{
     border-color: cyan;
 }
 
+#activa{
+    display: flex;
+    margin: 30px auto auto auto;
+    width: 15%;
+    background-image: url("../Recursos/mus.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 0%;
+    border-radius: 20px;
+    border-style:groove;
+    border-color: purple; 
+}
+
 ol li::marker{
     color: black;
 }
