@@ -232,23 +232,17 @@ cerrar.addEventListener('click', function(){
     }
 });
 
-/*const activa=document.getElementById('activa');
-const tema=document.getElementById('tema');
-const mod=document.getElementById('mod');
-const cerrar=document.getElementsByClassName('cerrar')[0];
-tema.play();
-
-activa.addEventListener('click', function(){
-    if(tema.paused){
-    tema.play();
-    tema.loop= true;
-    }
-    else{
-        tema.pause();
-    }
-        mod.style.display= 'block';
+const texto= document.querySelectorAll('.marcar');
+texto.forEach (texto =>{
+texto.addEventListener('mouseenter', () =>{
+    texto.style.color= "cyan";
+    texto.style.fontSize= '3rem';
+    texto.style.textShadow= "2px 2px black";
 });
 
-cerrar.onclick= function(){
-    mod.style.display= 'none';
-}*/
+texto.addEventListener('mouseleave', () =>{
+    texto.style.color= "blue";
+    texto.style.fontSize= '2rem';
+    texto.style.textShadow= 'none';
+});
+});
