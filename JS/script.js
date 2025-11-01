@@ -212,7 +212,30 @@ forma3.addEventListener('click', function(){
 
 const activa=document.getElementById('activa');
 const tema=document.getElementById('tema');
+const mod=document.getElementById('mod');
+const cerrar=document.getElementsByClassName('cerrar')[0];
+tema.play();
 
+activa.addEventListener('click', function(){
+    mod.style.display= 'block';
+});
+
+cerrar.addEventListener('click', function(){
+    mod.style.display= 'none';
+
+    if(tema.paused){
+        tema.play();
+        tema.loop= true;
+    }
+    else{
+        tema.pause();
+    }
+});
+
+/*const activa=document.getElementById('activa');
+const tema=document.getElementById('tema');
+const mod=document.getElementById('mod');
+const cerrar=document.getElementsByClassName('cerrar')[0];
 tema.play();
 
 activa.addEventListener('click', function(){
@@ -223,4 +246,9 @@ activa.addEventListener('click', function(){
     else{
         tema.pause();
     }
+        mod.style.display= 'block';
 });
+
+cerrar.onclick= function(){
+    mod.style.display= 'none';
+}*/
