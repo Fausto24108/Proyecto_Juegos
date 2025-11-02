@@ -136,3 +136,7 @@ forma.addEventListener('click', function(){
         Ceferino.src=img2;
     }
 });
+
+function ModalCuriosidades() {
+    
+}
