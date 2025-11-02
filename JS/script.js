@@ -145,4 +145,11 @@ function ModalCuriosidades() {
     if (!boton || !modal || !cerrar) {
     console.error("Faltan elementos del modal en el HTML.");
     return;
+    }
+
+    boton.addEventListener("click", function() {
+    modal.style.display = "flex";
+    modal.querySelector("h2").textContent = "¡Espero que esté disfrutando de la página!";
+    });
+
 }
