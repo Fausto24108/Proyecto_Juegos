@@ -339,3 +339,8 @@ html {
 .cerrar-modal:hover {
   background-color: darkgreen;
 }
+
+@keyframes aparecerModal {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
