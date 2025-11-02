@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    color: #3CF80D;
+    color: #E605AE;
     font-size: 20px;
     margin-bottom: 8px;
 }
@@ -113,7 +113,7 @@ footer p{
 .Caja ol li::marker {
     font-size: 1.2em;
     font-weight: bold;
-    color: #3CF80D;
+    color: #E605AE;
 }
 
 .Caja ol {
