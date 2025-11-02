@@ -210,8 +210,8 @@ html {
 .tarjeta__cara--trasera {
   background-color: whitesmoke;
   transform: rotateY(180deg);
-  box-shadow: 0 0 15px purple;
-  border: 3px solid purple;
+  box-shadow: 0 0 15px #3CF80D;
+  border: 3px solid #3CF80D;
   opacity: 1;
   transition: box-shadow 0.3s ease, border 0.3s ease;
 }
