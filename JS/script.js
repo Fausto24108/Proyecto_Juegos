@@ -138,5 +138,5 @@ forma.addEventListener('click', function(){
 });
 
 function ModalCuriosidades() {
-    
+    const boton = document.getElementById("botonModal");
 }
