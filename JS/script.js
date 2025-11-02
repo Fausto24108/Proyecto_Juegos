@@ -152,4 +152,12 @@ function ModalCuriosidades() {
     modal.querySelector("h2").textContent = "¡Espero que esté disfrutando de la página!";
     });
 
+
+    boton.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+    modal.style.display = "flex";
+    modal.querySelector("h2").textContent = "¡Espero que esté disfrutando de las curiosidades!";
+    });
+
+    
 }
