@@ -307,3 +307,15 @@ html {
   z-index: 999;
   animation: aparecerModal 0.3s ease;
 }
+
+.modal-contenido {
+  background-color: #D98FF0;
+  border: 3px solid purple;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  width: 320px;
+  color: #4E1065;
+  box-shadow: 0 0 15px rgba(128, 0, 128, 0.7);
+  animation: zoomIn 0.4s ease;
+}
