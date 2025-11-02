@@ -141,4 +141,8 @@ function ModalCuriosidades() {
     const boton = document.getElementById("botonModal");
     const modal = document.getElementById("miModal");
     const cerrar = document.getElementById("cerrarModal");
+
+    if (!boton || !modal || !cerrar) {
+    console.error("Faltan elementos del modal en el HTML.");
+    return;
 }
