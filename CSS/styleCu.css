@@ -325,3 +325,13 @@ html {
   font-size: 18px;
   color: #2E0E38;
 }
+
+.cerrar-modal {
+  background-color: #0C9D84;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
