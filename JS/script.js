@@ -159,5 +159,8 @@ function ModalCuriosidades() {
     modal.querySelector("h2").textContent = "¡Espero que esté disfrutando de las curiosidades!";
     });
 
-    
+    cerrar.addEventListener("click", function() {
+    modal.style.display = "none";
+    });
+
 }
