@@ -288,3 +288,8 @@ html {
   display: block;
   margin: 20px auto;
 }
+
+#botonModal:hover {
+  background-color: darkgreen;
+  transform: scale(1.1);
+}
