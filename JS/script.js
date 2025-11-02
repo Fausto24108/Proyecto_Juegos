@@ -163,4 +163,13 @@ function ModalCuriosidades() {
     modal.style.display = "none";
     });
 
-}
+    modal.addEventListener("click", function(e) {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+    });
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+    ModalCuriosidades();
+    });
