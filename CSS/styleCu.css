@@ -319,3 +319,9 @@ html {
   box-shadow: 0 0 15px rgba(128, 0, 128, 0.7);
   animation: zoomIn 0.4s ease;
 }
+
+.modal-contenido h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #2E0E38;
+}
