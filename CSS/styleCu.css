@@ -58,6 +58,14 @@ img {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+.ContenedorCajas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: stretch;
+}
+
 .Barra_navegacion{
     background-color: white;
     display: flex;
