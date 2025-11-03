@@ -367,7 +367,7 @@ html {
 .BotonSubir img{
     width: 100%;
     height: auto;
-    margin-top: 90px;
+    margin-top: 0px;
 }
 
 .BotonSubir:hover {
