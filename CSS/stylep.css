@@ -124,11 +124,25 @@ h3{
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 @keyframes slideDown{
     from{
         opacity: 0;
         transform: translateY(-100px);
       }
+=======
+<<<<<<< HEAD
+=======
+.imagen {
+    border: 1px;
+    transition: transform 0.8s;
+}
+
+.imagen:hover {
+    transform: rotateY(180deg);
+}
+>>>>>>> 46ad5a6 (Creando Recursos)
+>>>>>>> 5b5cb4b4af221b708987b4316763cadb15283b14
 
     to{
         opacity: 1;
