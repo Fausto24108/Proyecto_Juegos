@@ -42,7 +42,7 @@
 
 body {
     background-color: rgb(155, 199, 199);
-    background-image: url(../recursos/fondo503.png);
+    background-image: url(../recursos/fondonintendo);
     animation: slideDown 2s;
 }
 
@@ -55,7 +55,7 @@ footer {
     font-size: 17px;
 }
 
-.ContenedorLogo {
+.ContenedorLogo {   
     text-align: center;
 }
 
@@ -73,6 +73,7 @@ img{
     border-radius: 15px;
     padding: 20px;
     gap: 20px;
+    box-shadow: 0 0 20px rgb(0, 175, 250)
 }
 
 .Item{
@@ -87,6 +88,7 @@ img{
 
 .Item img:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 5px forestgreen;
 }
 
 .productos{
@@ -126,7 +128,7 @@ h1{
 
 .btn:hover {
     background: rgb(255, 255, 255);
-    border: 2px solid rgb(43, 43, 43);
+    border: 2px solid rgb(123, 199, 232);
     color: rgb(0, 0, 0);
     font-size:16px;
 }
@@ -162,10 +164,10 @@ h1{
 
 .Frente {
     background-color: #fcfafa; 
-    color: rgb(0, 0, 0);
+    color: rgb(8, 80, 0);
     font-weight: bold;
     font-size: 18px;
-    border: 2px solid rgb(43, 43, 43);
+    border: 2px solid rgb(123, 199, 232);
 }
 
 .Atras {
@@ -177,3 +179,6 @@ h1{
     padding: 0px;
 }
 
+img{
+    
+}
