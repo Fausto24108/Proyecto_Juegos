@@ -118,16 +118,15 @@ h1{
     font-size: 16px;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    background-color: #1631dd;
-    border: 2px solid firebrick;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
     text-decoration: none;
     transition: all 0.5s;
 }
 
 .btn:hover {
-    background: rgb(41, 249, 104);
-    border: 2px solid rgb(57, 9, 73);
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(43, 43, 43);
     color: rgb(0, 0, 0);
     font-size:16px;
 }
@@ -162,11 +161,11 @@ h1{
 }
 
 .Frente {
-    background-color: #1631dd; 
+    background-color: #fcfafa; 
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 18px;
-    border: 2px solid firebrick;
+    border: 2px solid rgb(43, 43, 43);
 }
 
 .Atras {
