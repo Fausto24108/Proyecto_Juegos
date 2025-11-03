@@ -349,3 +349,32 @@ html {
   from { transform: scale(0.8); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
+
+.BotonSubir{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    border-radius: 100px;
+    border: 3px solid blue;
+    box-shadow: 5px 5px 10px rgba(7, 133, 236, 0.7);
+    z-index: 9999;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.BotonSubir img{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+}
+
+.BotonSubir:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 12px rgb(0, 0, 0);
+}
+
+.BotonSubir:active{
+    transform: translateY(5px);
+}
