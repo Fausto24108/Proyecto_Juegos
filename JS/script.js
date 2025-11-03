@@ -246,3 +246,39 @@ texto.addEventListener('mouseleave', () =>{
     texto.style.textShadow= 'none';
 });
 });
+
+function ModalCuriosidades() {
+  const boton = document.getElementById("botonModal");
+  const modal = document.getElementById("miModal");
+  const cerrar = document.getElementById("cerrarModal");
+
+  if (!boton || !modal || !cerrar) {
+    console.error("Faltan elementos del modal en el HTML.");
+    return;
+  }
+
+  boton.addEventListener("click", function() {
+    modal.style.display = "flex";
+    modal.querySelector("h2").textContent = "¡Espero que esté disfrutando de la página!";
+  });
+
+  boton.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+    modal.style.display = "flex";
+    modal.querySelector("h2").textContent = "¡Espero que esté disfrutando de las curiosidades!";
+  });
+
+  cerrar.addEventListener("click", function() {
+    modal.style.display = "none";
+  });
+
+  modal.addEventListener("click", function(e) {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  ModalCuriosidades();
+});
