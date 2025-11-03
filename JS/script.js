@@ -98,3 +98,187 @@ function SubirPagina(){
         behavior: "smooth"
     });
 }
+
+const mostrar= document.getElementById('mostrar');
+const int= document.getElementById('int');
+const ext= document.getElementById('ext');
+const ver= document.getElementById('ver');
+
+mostrar.addEventListener('click', function(){
+    if(int.style.display== 'none'){
+    int.style.display= 'block';
+    }
+    else{
+        int.style.display= 'none';
+    }
+});
+
+ver.addEventListener('click', function(){
+    if(ext.style.display== 'none'){
+    ext.style.display= 'block';
+    }
+    else{
+        ext.style.display= 'none';
+    }
+});
+
+const Ceferino=document.getElementById('Ceferino');
+const forma=document.getElementById('forma');
+
+const img1= './Recursos/favmgs.gif';
+const img2= './Recursos/Ceferino.png';
+
+forma.addEventListener('click', function(){
+    if(Ceferino.src.includes('Ceferino.png')){
+        Ceferino.src=img1;
+    }
+    else{
+        Ceferino.src=img2;
+    }
+});
+const Robert=document.getElementById('Robert');
+const forma4=document.getElementById('forma4');
+
+const img41= './Recursos/pkmn.gif';
+const img42= './Recursos/Robert.png';
+
+forma4.addEventListener('click', function(){
+    if(Robert.src.includes('Robert.png')){
+        Robert.src=img41;
+    }
+    else{
+        Robert.src=img42;
+    }
+});
+
+const Marco=document.getElementById('Marco');
+const forma2=document.getElementById('forma2');
+
+const img21= './Recursos/hrzn.gif';
+const img22= './Recursos/Marco.png';
+
+forma2.addEventListener('click', function(){
+    if(Marco.src.includes('Marco.png')){
+        Marco.src=img21;
+    }
+    else{
+        Marco.src=img22;
+    }
+});
+
+const Fausto=document.getElementById('Fausto');
+const forma5=document.getElementById('forma5');
+
+const img51= './Recursos/pz.gif';
+const img52= './Recursos/Fausto.png';
+
+forma5.addEventListener('click', function(){
+    if(Fausto.src.includes('Fausto.png')){
+        Fausto.src=img51;
+    }
+    else{
+        Fausto.src=img52;
+    }
+});
+const Malpu=document.getElementById('Malpu');
+const forma6=document.getElementById('forma6');
+
+const img61= './Recursos/gnbp.gif';
+const img62= './Recursos/Malpu.png';
+
+forma6.addEventListener('click', function(){
+    if(Malpu.src.includes('Malpu.png')){
+        Malpu.src=img61;
+    }
+    else{
+        Malpu.src=img62;
+    }
+});
+
+const Thiago=document.getElementById('Thiago');
+const forma3=document.getElementById('forma3');
+
+const img31= './Recursos/tlou.gif';
+const img32= './Recursos/Thiago.png';
+
+forma3.addEventListener('click', function(){
+    if(Thiago.src.includes('Thiago.png')){
+        Thiago.src=img31;
+    }
+    else{
+        Thiago.src=img32;
+    }
+});
+
+const activa=document.getElementById('activa');
+const tema=document.getElementById('tema');
+const mod=document.getElementById('mod');
+const cerrar=document.getElementsByClassName('cerrar')[0];
+tema.play();
+
+activa.addEventListener('click', function(){
+    mod.style.display= 'block';
+});
+
+cerrar.addEventListener('click', function(){
+    mod.style.display= 'none';
+
+    if(tema.paused){
+        tema.play();
+        tema.loop= true;
+    }
+    else{
+        tema.pause();
+    }
+});
+
+const texto= document.querySelectorAll('.marcar');
+texto.forEach (texto =>{
+texto.addEventListener('mouseenter', () =>{
+    texto.style.color= "cyan";
+    texto.style.fontSize= '3rem';
+    texto.style.textShadow= "2px 2px black";
+});
+
+texto.addEventListener('mouseleave', () =>{
+    texto.style.color= "blue";
+    texto.style.fontSize= '2rem';
+    texto.style.textShadow= 'none';
+});
+});
+
+function ModalCuriosidades() {
+  const boton = document.getElementById("botonModal");
+  const modal = document.getElementById("miModal");
+  const cerrar = document.getElementById("cerrarModal");
+
+  if (!boton || !modal || !cerrar) {
+    console.error("Faltan elementos del modal en el HTML.");
+    return;
+  }
+
+  boton.addEventListener("click", function() {
+    modal.style.display = "flex";
+    modal.querySelector("h2").textContent = "¡Espero que esté disfrutando de la página!";
+  });
+
+  boton.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+    modal.style.display = "flex";
+    modal.querySelector("h2").textContent = "¡Espero que esté disfrutando de las curiosidades!";
+  });
+
+  cerrar.addEventListener("click", function() {
+    modal.style.display = "none";
+  });
+
+  modal.addEventListener("click", function(e) {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  ModalCuriosidades();
+});

@@ -1,0 +1,66 @@
+body{
+    background-image: url("./Imagenes/Fondo.jpg");
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    text-align: center;
+    color: red;
+
+}
+
+.Juego{
+     text-align: center;
+}
+
+h3{
+    text-decoration: underline;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Caja{
+    width: 1000px;
+    background-color: black;
+    margin: 20px auto auto auto;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.Barra_navegacion{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.Barra_navegacion nav a{
+    color: darkblue;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: 135px;
+    background-color: rgba(102, 55, 211, 0.966);
+    color: greenyellow;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.ContenedorLogo{
+    text-align: center;
+}
