@@ -103,7 +103,7 @@ p {
 
 img{
     border-radius: 10px;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 150px rgb(15, 15, 15);
 }
 
 h1{
