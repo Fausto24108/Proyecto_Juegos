@@ -24,7 +24,17 @@
             </div>
         </header>
         <div id="introduccion">
+            
             <img src="Recursos/Acerca.png" width="400" height="200">
+            <div id="mod" class="oculto">
+                <div class="relleno">
+                    <span class="cerrar">&times;</span>
+                    <h2> ¿Desea cambiar estado?</h2>
+                    <p> Al tocar este botón cambiara el estado del audio.</p>
+                </div>
+            </div>
+            <button id="activa">Tocame</button>
+            <audio id="tema" src="Recursos/Audios/doors.mp3"></audio>        
         </div>
         <div id="indice">
             <div class="Ind_Caja">
@@ -118,7 +128,8 @@
                 <p> Como equipo de JE20 estamos encargados de recopilar la mayor cantidad de videojuegos antiguos posibles con la finalidad de ser la mayor colección de juegos emulables. Llevamos trabajando en este proyecto hace tiempo.</p>
                 
                 <h4 class="marcar"> Marco Abello</h4>
-                <img src="Recursos/Marco.png" width="220" height="220" title="Marco" alt="Marco">
+                <img src="Recursos/Marco.png" id="Marco" width="220" height="220" title="Marco" alt="Marco">
+                <button id="forma2">Juego favorito</button>               
                 <p> Marco Abello es el encargado de agregar las curiosidades de cada uno de los videojuegos listados en la página de emulación.</p>
                 <ul>
                     <li> Año de nacimiento: 2008</li>
@@ -128,7 +139,7 @@
                 </ul>
                 <h4 class="marcar"> Ceferino Villar</h4>
                 <img src="Recursos/Ceferino.png" id="Ceferino" width="220" height="220" title="Ceferino" alt="Ceferino">
-                <button id="forma">Mostrar verdadera forma</button>
+                <button id="forma">Juego favorito</button>
                 <p> Ceferino Villar es el encargado de diseñar esta página, que cumple la función de añadir medios para contactar con los dueños de la página, además de añadir información acerca de los integrantes de JE20.</p>
                 <ul>
                     <li> Año de nacimiento: 2008</li>
@@ -137,7 +148,8 @@
                     <li> Disgustos: Los cuadrados con bordes redondeados </li> 
                 </ul>
                 <h4 class="marcar"> Thiago Rodríguez</h4>
-                <img src="Recursos/Thiago.png" width="220" height="220" title="Thiago" alt="Thiago">
+                <img src="Recursos/Thiago.png" id="Thiago" width="220" height="220" title="Thiago" alt="Thiago">
+                <button id="forma3">Juego favorito</button>                               
                 <p> Thiago Rodríguez es el encargado de agregar la historia de cada uno de los videojuegos listados en la página de emulación.</p>
                 <ul>
                     <li> Año de nacimiento: 2007</li>
@@ -146,7 +158,8 @@
                     <li> Disgustos: Comida chatarra </li>
                 </ul>
                 <h4 class="marcar"> Robert Weisser</h4>
-                <img src="Recursos/Robert.png" width="220" height="220" title="Robert" alt="Robert">
+                <img src="Recursos/Robert.png" id='Robert' width="220" height="220" title="Robert" alt="Robert">
+                 <button id="forma4">Juego favorito</button>
                 <p> Robert Weisser se encarga de la recolección de diversos archivos multimedia con la finalidad de añadirlos en el apartado Multimedia de JE20.</p>
                 <ul>
                     <li> Año de nacimiento: 2007</li>
@@ -155,7 +168,8 @@
                     <li> Disgustos: Que no le compren los alfajores </li>
                 </ul>
                 <h4 class="marcar"> Fausto Poggi</h4>
-                <img src="Recursos/Fausto.png" width="220" height="220" title="Fausto" alt="Fausto">
+                <img src="Recursos/Fausto.png" id='Fausto' width="220" height="220" title="Fausto" alt="Fausto">
+                <button id="forma5">Juego favorito</button>                                          
                 <p> Fausto Poggi es el miembro cuyo deber es el de listar los diversos juegos emulables junto a sus respectivos emuladores.</p>
                 <ul>
                     <li> Año de nacimiento: 2008</li>
@@ -165,7 +179,8 @@
                 </ul>
                 <img src="Recursos/Poggi.png" width="220" height="220" title="Poggi" alt="Poggi">
                 <h4 class="marcar"> Ezequiel Malpu</h4>
-                <img src="Recursos/Malpu.png" width="220" height="220" title="Malpu" alt="Malpu">
+                <img src="Recursos/Malpu.png" id='Malpu' width="220" height="220" title="Malpu" alt="Malpu">
+                <button id="forma6">Juego favorito</button>                                          
                 <p> Ezequiel Malpu es el encargado de crear la página principal, la cual servirá como principal vínculo al resto de páginas. También crea la página de Merchandising, en la cual se presentan y promocionan productos relacionados a JE20 y los videojuegos.</p>
                 <ul>
                     <li> Año de nacimiento: El integrante ha pedido que se omita este apartado</li>
@@ -175,6 +190,9 @@
                 </ul>
             </div>
         </main>
+   <button class="BotonSubir" onclick="SubirPagina()">
+        <img src="Recursos/Flecha.png" width="100" height="90" title="Flecha" alt="Imagen de flecha">
+    </button>
         <footer>
             <p class="Cyan">©2025 Juegos Epet 20. Todos los derechos reservados a JE20. Para más información sobre nosotros visita el enlace de Contáctenos.</p> 
             <div id="Centrar">
