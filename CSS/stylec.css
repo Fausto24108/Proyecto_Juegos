@@ -397,3 +397,39 @@ footer{
 .BotonSubir:active{
     transform: translateY(5px);
 }
+
+.ColumnaFooter{
+    margin-left: 10px;
+  }
+  
+  .ColumnaFooter h3{
+    margin-top: 5px;
+    padding-bottom: 10px;
+  }
+  
+  .ColumnaFooter p{
+    margin: 5px 0;
+  }
+  
+  .ColumnaFooter a{
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .ColumnaFooter a:hover{
+    transform: scale(1.2);
+  }
+
+  
+#Footer{
+    background-color: red;
+    border-radius: 20px;
+    color: rgb(84, 255, 57);
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
