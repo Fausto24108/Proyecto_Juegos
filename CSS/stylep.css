@@ -166,7 +166,7 @@ h4{
 #Footer{
     background-color: red;
     border-radius: 20px;
-    color: white;
+    color: rgb(84, 255, 57);
     display: flex;
     justify-content: space-between;
     border: 5px solid black;
