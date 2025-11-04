@@ -169,14 +169,14 @@ footer{
 
 @keyframes section{
     from{
-        transform: translateX(80px);
+        transform: translateX(-20px);
     }
     to{
-        transform: translateX(1000px);
+        transform: translateX(900px);
     }
 }
 
-.sections{
+.burbuja{
     animation: section 4s linear infinite;
     animation-direction: alternate;
 }
@@ -305,7 +305,7 @@ footer{
     
 }
 
-@keyframes stars{
+@keyframes mush{
     from{
         transform: translateY(0px);
     }
@@ -313,8 +313,8 @@ footer{
         transform: translateY(6650px);
     }
 }
-.star{
-    animation: stars 10s linear infinite;
+.mush{
+    animation: mush 10s linear infinite;
     animation-direction: alternate;
 }
 
