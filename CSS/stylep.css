@@ -169,6 +169,6 @@ h4{
     color: white;
     display: flex;
     justify-content: space-between;
-    border-top: 5px solid black;
+    border: 5px solid black;
     font-family: Arial, Helvetica, sans-serif;
   }
